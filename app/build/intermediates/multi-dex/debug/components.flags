@@ -1,7 +1,7 @@
--injars 'F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
--outjars 'F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'F:\Sharjeel'sWork\Workspace\SensibleWallet\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'F:\Sharjeel'sWork\Workspace\SensibleWallet\app\build\intermediates\multi-dex\debug\componentClasses.jar'
 
--libraryjars 'J:\Android\SDK\build-tools\23.0.1\lib\shrinkedAndroid.jar'
+-libraryjars 'C:\Users\Ali\AppData\Local\Android\sdk\build-tools\23.0.1\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
@@ -10,10 +10,10 @@
 -dontpreverify
 -dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
 -dontwarn **
--printconfiguration 'F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'F:\Sharjeel'sWork\Workspace\SensibleWallet\app\build\intermediates\multi-dex\debug\components.flags'
 
 
--keep class com.sensiblewallet.MyApplication {
+-keep class com.cashmobi.MyApplication {
     <init>();
     void attachBaseContext(android.content.Context);
 }
@@ -34,19 +34,19 @@
     <init>();
 }
 
--keep class com.sensiblewallet.ActivitySplashScreen {
+-keep class com.cashmobi.ActivitySplashScreen {
     <init>();
 }
 
--keep class com.sensiblewallet.ActivityLogin {
+-keep class com.cashmobi.ActivityLogin {
     <init>();
 }
 
--keep class com.sensiblewallet.ActivityRegister {
+-keep class com.cashmobi.ActivityRegister {
     <init>();
 }
 
--keep class com.sensiblewallet.ActivityMainWallet {
+-keep class com.cashmobi.ActivityMainWallet {
     <init>();
 }
 
@@ -58,11 +58,11 @@
     <init>();
 }
 
--keep class com.sensiblewallet.NotificationReciver {
+-keep class com.cashmobi.NotificationReciver {
     <init>();
 }
 
--keep class com.sensiblewallet.GCMIntentService {
+-keep class com.cashmobi.GCMIntentService {
     <init>();
 }
 

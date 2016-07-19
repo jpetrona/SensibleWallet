@@ -5,7 +5,7 @@ import android.content.Context;
 
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
-import com.sensiblewallet.MyApplication;
+import com.cashmobi.MyApplication;
 
 /**
  * Created by nikhil on 3/4/16.

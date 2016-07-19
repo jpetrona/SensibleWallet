@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Volumes/Documents/Cloud/Dropbox (Personal)/Sensible Wallet Source Code/Sensible Wallet Update 2.5/3.0 Source Code/SensibleWallet/app/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/Volumes/Documents/Cloud/Dropbox (Personal)/Sensible Wallet Source Code/Sensible Wallet Update 2.5/3.0 Source Code/SensibleWallet/app/src/release/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="F:\Sharjeel&apos;sWork\Workspace\SensibleWallet\app\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="F:\Sharjeel&apos;sWork\Workspace\SensibleWallet\app\src\release\jniLibs"/></dataSet></merger>

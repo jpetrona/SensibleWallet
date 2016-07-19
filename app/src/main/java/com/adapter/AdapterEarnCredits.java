@@ -10,8 +10,8 @@ import android.widget.TextView;
 
 import com.commonutility.GlobalData;
 import com.model.EarnCreditModel;
-import com.sensiblewallet.FragEarnCredits;
-import com.sensiblewallet.R;
+import com.cashmobi.FragEarnCredits;
+import com.cashmobi.R;
 
 import java.util.List;
 

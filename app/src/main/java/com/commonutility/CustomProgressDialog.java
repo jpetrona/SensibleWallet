@@ -5,7 +5,7 @@ import android.content.Context;
 import android.view.Gravity;
 import android.view.WindowManager;
 
-import com.sensiblewallet.R;
+import com.cashmobi.R;
 
 public class CustomProgressDialog extends Dialog {
 	public CustomProgressDialog(Context context, int layoutResID) {

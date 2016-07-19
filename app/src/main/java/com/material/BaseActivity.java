@@ -12,7 +12,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
 
-import com.sensiblewallet.R;
+import com.cashmobi.R;
 
 
 /**

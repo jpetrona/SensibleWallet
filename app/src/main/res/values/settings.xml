@@ -2,12 +2,12 @@
 <resources>
 
     <!-- General settings -->
-    <string name="app_name">Sensible Wallet</string>
+    <string name="app_name">CashMobi</string>
 
     <!-- API settings -->
     <string name="api_adxmi_app_id">8378a09d9c035eaf</string>
     <string name="api_adxmi_app_secret">45d0fe31994dc9c0</string>
-    <string name="sdk_facebook_app_id">1523488371288686</string>
+    <string name="sdk_facebook_app_id">530645470453571</string>
     <string name="api_ascendmedia_publisher_id">32350</string>
     <string name="api_ascendmedia_adwall_id">1976</string>
     <string name="api_persona_app_id">84bd29a809d93f7d2f4e0e1a01a6517b</string>
