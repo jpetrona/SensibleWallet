@@ -30,7 +30,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.sensiblewallet.R;
+import com.cashmobi.R;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

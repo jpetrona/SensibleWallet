@@ -1,4 +1,4 @@
-package com.sensiblewallet;
+package com.cashmobi;
 
 import android.app.Activity;
 import android.content.Context;

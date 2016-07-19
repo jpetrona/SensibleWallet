@@ -11,7 +11,7 @@ import com.parse.entity.mime.HttpMultipartMode;
 import com.parse.entity.mime.MultipartEntity;
 import com.parse.entity.mime.content.FileBody;
 import com.parse.entity.mime.content.StringBody;
-import com.sensiblewallet.R;
+import com.cashmobi.R;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
