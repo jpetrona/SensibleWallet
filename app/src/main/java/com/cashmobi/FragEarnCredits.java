@@ -528,7 +528,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 				break;
             case "AR":
                 Bundle bundle=new Bundle();
-                bundle.putString("url", "http://wall.adgaterewards.com/naiY/"+PreferenceConnector.readString(aiContext, PreferenceConnector.WALLETID, ""));
+                bundle.putString("url", "http://wall.adgaterewards.com/oK2c/"+PreferenceConnector.readString(aiContext, PreferenceConnector.WALLETID, ""));
                 Fragment fragment=new CPLeadCreditScreen();
                 fragment.setArguments(bundle);
                 switchFragment(fragment , FragmentTAG.FragEARNCREDIT);

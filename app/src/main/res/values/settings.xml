@@ -5,24 +5,24 @@
     <string name="app_name">CashMobi</string>
 
     <!-- API settings -->
-    <string name="api_adxmi_app_id">8378a09d9c035eaf</string>
-    <string name="api_adxmi_app_secret">45d0fe31994dc9c0</string>
+    <string name="api_adxmi_app_id">381357e6b31f4407</string>
+    <string name="api_adxmi_app_secret">0086792d1d6dcd2b</string>
     <string name="sdk_facebook_app_id">530645470453571</string>
-    <string name="api_ascendmedia_publisher_id">32350</string>
-    <string name="api_ascendmedia_adwall_id">1976</string>
+    <string name="api_ascendmedia_publisher_id">105633</string>
+    <string name="api_ascendmedia_adwall_id">6475</string>
     <string name="api_persona_app_id">84bd29a809d93f7d2f4e0e1a01a6517b</string>
     <string name="api_cpalead_gateway_id">907289</string>
     <string name="api_cpalead_publisher_id">372199</string>
     <string name="api_super_rewards_hash">jprctxjiqmi.393019066550</string>
     <string name="api_super_rewards_app_package_name">com.swallet</string>
-    <string name="api_super_sonic_app_key">3d8d61e9</string>
-    <string name="api_trialpay_app_key">e6c78043e93be11f553a076569b6a2ae</string>
-    <string name="api_tapjoy_sdk_key">FQDurAHySfGVNaSYYK9ISAECsJ0JzoMlWzJkPFcXTTPqCY5nrO6naPtJ3odC</string>
+    <string name="api_super_sonic_app_key">50e33475</string>
+    <string name="api_trialpay_app_key">d43e2b8deb3b00c577f1881a0ec583ab</string>
+    <string name="api_tapjoy_sdk_key">TJd6SdcsSqy5zg1jg-c_KQECXIwECSnW6rlM7Mj3XZVBG0cCzuTti3p4pD9Y</string>
     <string name="api_vungle_app_id">Sensible</string>
-    <string name="api_nativex_app_id">30890</string>
+    <string name="api_nativex_app_id">91043</string>
     <!-- Unused API settings-->
-    <string name="api_ad_colony_app_id">app0dac939ae37745d184</string>
-    <string name="api_ad_colony_zone_id">vz55e714be1074431c97</string>
+    <string name="api_ad_colony_app_id">appaa82055de35f4afc90</string>
+    <string name="api_ad_colony_zone_id">vz5d7a10a7209e4784b0</string>
 
     <!--Coloration settings for the app -->
     <color name="material_color_primary">@color/md_red_800</color>
