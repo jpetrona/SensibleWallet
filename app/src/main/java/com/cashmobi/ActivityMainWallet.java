@@ -19,6 +19,7 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentTabHost;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
@@ -28,6 +29,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -96,7 +98,7 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 	public static final String TAG_COUNTRY_ID="country_id";
 	public static final String TAG_COUNTRY_LOGO="country_logo";
 	public static final String TAG_RESULT="RESULT";
-	ViewPager pager;
+//	ViewPager pager;
 	FragmentPagerAdapter adapterTab;
     private ImageView countryFlagImageView;
 
@@ -115,6 +117,9 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
             "com.androidhive.pushnotifications.DISPLAY_MESSAGE";
  
     static final String EXTRA_MESSAGE = "message";
+
+	FragmentTabHost mTabHost;
+	static Context context;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -292,7 +297,7 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 			}
 		});
 
-		adapterTab = new GoogleMusicAdapter(getSupportFragmentManager());
+		/*adapterTab = new GoogleMusicAdapter(getSupportFragmentManager());
 		pager = (ViewPager)findViewById(R.id.pager);
 		pager.setOnPageChangeListener(new OnPageChangeListener() {
 
@@ -312,15 +317,15 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
                             .error(R.drawable.ic_launcher)
                             .into(image);
                 }
-				/* if(position==0)
+				*//* if(position==0)
 	                    ((FirstFragment)pager.getChildAt(position)).onUpdateView(); //onUpdateView is public function at 'FirstFragment', insert your code here
 
-				 */
-				/*if(position==0)
+				 *//*
+				*//*if(position==0)
 					FragEarnCredits.onUpdateView(aiContext);
 				if(position==1)
 					// ((ViewRewardsFragment)adapterTab.getItem(position)).onUpdateView();
-					ViewRewardsFragment.onUpdateView(aiContext);*/
+					ViewRewardsFragment.onUpdateView(aiContext);*//*
                 //adapterTab.notifyDataSetChanged(); //this line will force all pages to be loaded fresh when changing between fragments
             }
 
@@ -348,7 +353,7 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
         tabLayout.setSelectedTabIndicatorColor(getResources().getColor(R.color.md_white_1000));
         tabLayout.setBackgroundColor(getResources().getColor(R.color.material_color_primary));
         tabLayout.setSelectedTabIndicatorHeight(8);
-        tabLayout.setupWithViewPager(pager);
+        tabLayout.setupWithViewPager(pager);*/
 
 //		Button copyrightButton = (Button)findViewById(R.id.navigation_button_footer);
 //		copyrightButton.setOnClickListener(new OnClickListener() {
@@ -368,7 +373,7 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 
 
 
-
+		initTabs();
 	}
 
     public void initCountryFlagIcon(View aiView) {
@@ -482,8 +487,8 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 
 		mDrawerLayout.setDrawerListener(mDrawerToggle);
 		mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
-        pager.setVisibility(View.VISIBLE);
-		tabLayout.setVisibility(View.VISIBLE);
+//        pager.setVisibility(View.VISIBLE);
+//		tabLayout.setVisibility(View.VISIBLE);
 
 		getToolbar().setTitle(R.string.app_name);
 		mDrawerToggle.setDrawerIndicatorEnabled(true);
@@ -606,7 +611,7 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 		hideNoConnectionError();
 		hideKeyboard();
 
-        pager.setVisibility(View.GONE);
+//        pager.setVisibility(View.GONE);
         tabLayout.setVisibility(View.GONE);
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 		transaction.replace(R.id.content_frame, fragment).addToBackStack(tag).commit();
@@ -740,7 +745,7 @@ Chartboost.onBackPressed();
                 showCountryDialog(aiContext);
             }
             isShowFlagDialog = true;
-            for(int i = 0; i < pager.getAdapter().getCount(); i++) {
+            /*for(int i = 0; i < pager.getAdapter().getCount(); i++) {
                 Fragment frag = ((GoogleMusicAdapter) pager.getAdapter()).getItem(i);
                 View aiView = frag.getView();
                 if(aiView == null) continue;
@@ -751,7 +756,7 @@ Chartboost.onBackPressed();
                             .error(R.drawable.ic_launcher)
                             .into(image);
                 }
-            }
+            }*/
 		}
 		if (url.contains(GlobalVariables.UPDATE_PROFILE)) {
 			try {
@@ -816,7 +821,7 @@ Chartboost.onBackPressed();
 				dialog.dismiss();
 				ViewRewardsFragment.onUpdateView(aiContext);
 
-				for (int i = 0; i < pager.getAdapter().getCount(); i++) {
+				/*for (int i = 0; i < pager.getAdapter().getCount(); i++) {
 					Fragment frag = ((GoogleMusicAdapter) pager.getAdapter()).getItem(i);
 					if (frag instanceof ViewRewardsFragment) {
 						((ViewRewardsFragment)frag).LoadCountryDetail();
@@ -830,7 +835,7 @@ Chartboost.onBackPressed();
 								.error(R.drawable.ic_launcher)
 								.into(image);
 					}
-				}
+				}*/
 			}
 		});
 
@@ -1225,4 +1230,22 @@ Chartboost.onBackPressed();
         context.sendBroadcast(intent);
         
     }
+
+
+	private void initTabs() {
+		mTabHost = (FragmentTabHost) findViewById(android.R.id.tabhost);
+		mTabHost.setup(this, getSupportFragmentManager(), android.R.id.tabcontent);
+
+		View view1 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_earn_credits, null);
+		View view2 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_earn_credits, null);
+		View view3 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_earn_credits, null);
+		View view4 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_earn_credits, null);
+		View view5 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_earn_credits, null);
+
+		mTabHost.addTab(mTabHost.newTabSpec(getString(R.string.earn_cred)).setIndicator(view1), FragEarnCredits.class, null);
+		mTabHost.addTab(mTabHost.newTabSpec(getString(R.string.rewards)).setIndicator(view2), ViewRewardsFragment.class, null);
+		mTabHost.addTab(mTabHost.newTabSpec(getString(R.string.invite)).setIndicator(view3), InviteFriendsFragment.class, null);
+		mTabHost.addTab(mTabHost.newTabSpec(getString(R.string.connect)).setIndicator(view4), ConnectSocialFragment.class, null);
+
+	}
 }

@@ -170,7 +170,7 @@ public final class R {
 	}
 	public static final class string {
 		public static final int app_name = 0x7f050054;
-		public static final int prefs_rewarded_key = 0x7f05009e;
+		public static final int prefs_rewarded_key = 0x7f0500a1;
 	}
 	public static final class style {
 		public static final int InterstitialDialogTheme = 0x7f0700be;

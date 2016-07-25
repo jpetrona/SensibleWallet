@@ -131,4 +131,12 @@
     <string name="welcome_disclaimer_title">Welcome to Sensible Wallet!</string>
     <string name="welcome_disclaimer_message">Disclaimer: After you Earn 400 Credits, You can Enter Your Friend\'s Invite ID to Earn an additional 200 Credits! Share Your Invite ID to Earn More!</string>
 
+
+    <!-- String Tabs -->
+    <string name="earn_cred">Tasks</string>
+    <string name="rewards">Rewards</string>
+    <string name="invite">Invite</string>
+    <string name="connect">Connect</string>
+
+
     </resources>

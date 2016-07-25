@@ -600,6 +600,10 @@
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_faq.xml"
     },
     {
+        "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_indicator_earn_credits.xml",
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\layout\\tab_indicator_earn_credits.xml"
+    },
+    {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_forgot_password.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\dialog_forgot_password.xml"
     },
@@ -994,6 +998,10 @@
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dashboard_activity.xml",
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\layout\\dashboard_activity.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_earn_credits.xml",

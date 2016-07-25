@@ -869,6 +869,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="connect">Connect</string>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="credits_bar_credits_label">Total Credits:</string>
@@ -890,6 +891,7 @@
     <string name="drawer_rate">Rate us on Google Play</string>
     <string name="drawer_reward_history">Reward History</string>
     <string name="drawer_terms">Terms of Service</string>
+    <string name="earn_cred">Tasks</string>
     <string name="enable_email">false</string>
     <string name="error_data_from_server">Error in getting data from server</string>
     <string name="error_facebook_email_unverified">Oops! Your E-mail address is not verified with Facebook</string>
@@ -914,6 +916,7 @@
     <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
     <string name="google_analytics_id">UA-74706740-1</string>
     <string name="heyzap_app_id">d3f795a66009bd68262f51ecc847879f</string>
+    <string name="invite">Invite</string>
     <string name="message_invite_id_copied">Invitation ID Copied</string>
     <string name="message_login_success">Login Successful</string>
     <string name="message_redeem_success">Success, Your Reward is Currently Processing!</string>
@@ -945,6 +948,7 @@
     <string name="prompt_choose_login_account">Choose an Account to Start Earning!</string>
     <string name="prompt_forgot_password">Please enter your email to reset password</string>
     <string name="revmob_media_id">56d89bd7d05d07ce76961927</string>
+    <string name="rewards">Rewards</string>
     <string name="screen_earn_credits_offer_prompt">Earn Credits</string>
     <string name="screen_input_friend_id_hint_invitation_code">Friend\'s Invitation Code</string>
     <string name="screen_invite_friends_button_copy_id">Copy Invitation ID</string>
