@@ -8,11 +8,11 @@ package com.unity3d.ads.android;
 
 public final class R {
 	public static final class drawable {
-		public static final int unityads_background_button_pause = 0x7f02009c;
-		public static final int unityads_icon_play = 0x7f02009d;
-		public static final int unityads_icon_speaker_base = 0x7f02009e;
-		public static final int unityads_icon_speaker_triangle = 0x7f02009f;
-		public static final int unityads_icon_speaker_waves = 0x7f0200a0;
+		public static final int unityads_background_button_pause = 0x7f0200a6;
+		public static final int unityads_icon_play = 0x7f0200a7;
+		public static final int unityads_icon_speaker_base = 0x7f0200a8;
+		public static final int unityads_icon_speaker_triangle = 0x7f0200a9;
+		public static final int unityads_icon_speaker_waves = 0x7f0200aa;
 	}
 	public static final class id {
 		public static final int unityAdsAudioToggleView = 0x7f0b010c;

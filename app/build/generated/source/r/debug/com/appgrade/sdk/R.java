@@ -159,10 +159,10 @@ public final class R {
 		public static final int YellowGreen = 0x7f0a008f;
 	}
 	public static final class drawable {
-		public static final int ic_action_av_replay = 0x7f02007a;
-		public static final int ic_action_device_screen_rotation = 0x7f02007b;
-		public static final int ic_action_navigation_menu = 0x7f02007c;
-		public static final int ic_button_close = 0x7f02007d;
+		public static final int ic_action_av_replay = 0x7f02007c;
+		public static final int ic_action_device_screen_rotation = 0x7f02007d;
+		public static final int ic_action_navigation_menu = 0x7f02007e;
+		public static final int ic_button_close = 0x7f02007f;
 	}
 	public static final class id {
 		public static final int inline = 0x7f0b0018;
