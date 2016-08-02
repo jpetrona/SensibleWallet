@@ -244,6 +244,10 @@
     <color name="md_orange_A200">#FFAB40</color>
     <color name="md_orange_A400">#FF9100</color>
     <color name="md_orange_A700">#FF6D00</color>
+    <color name="golden">#FFC700</color>
+    <color name="golden_dark">#FFC700</color>
+    <color name="golden_highlight">#FFE548</color>
+    <color name="golden_accent">#FFC53A</color>
 
     <!--deep orange-->
     <color name="md_deep_orange_50">#FBE9A7</color>

@@ -60,6 +60,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="24dp"
+            android:background="@color/Black"
             android:gravity="center"
             style="@style/TextAppearance.AppCompat.Button"
             android:layout_marginLeft="16dp"
@@ -70,11 +71,11 @@
 
 
     <View
-        android:id="@+id/greyLine"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:background="@color/md_grey_300" />
+    android:id="@+id/greyLine"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:background="@color/Black" />
 
 </LinearLayout>

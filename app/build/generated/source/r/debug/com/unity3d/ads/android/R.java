@@ -28,10 +28,10 @@ public final class R {
 		public static final int unityAdsVideoView = 0x7f0b0105;
 	}
 	public static final class layout {
-		public static final int unityads_button_audio_toggle = 0x7f030056;
-		public static final int unityads_button_pause = 0x7f030057;
-		public static final int unityads_view_video_paused = 0x7f030058;
-		public static final int unityads_view_video_play = 0x7f030059;
+		public static final int unityads_button_audio_toggle = 0x7f030059;
+		public static final int unityads_button_pause = 0x7f03005a;
+		public static final int unityads_view_video_paused = 0x7f03005b;
+		public static final int unityads_view_video_play = 0x7f03005c;
 	}
 	public static final class string {
 		public static final int unityads_buffering_text = 0x7f0500d1;

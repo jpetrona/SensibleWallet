@@ -612,7 +612,8 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 		hideKeyboard();
 
 //        pager.setVisibility(View.GONE);
-        tabLayout.setVisibility(View.GONE);
+//        tabLayout.setVisibility(View.GONE);
+		mTabHost.setVisibility(View.GONE);
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 		transaction.replace(R.id.content_frame, fragment).addToBackStack(tag).commit();
     }
@@ -626,6 +627,7 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 		if(fragmentManager.getBackStackEntryCount() > 0){
 			fragmentManager.popBackStack();
 		}
+		mTabHost.setVisibility(View.VISIBLE);
 	}
 
 	@Override
@@ -1237,9 +1239,9 @@ Chartboost.onBackPressed();
 		mTabHost.setup(this, getSupportFragmentManager(), android.R.id.tabcontent);
 
 		View view1 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_earn_credits, null);
-		View view2 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_earn_credits, null);
-		View view3 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_earn_credits, null);
-		View view4 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_earn_credits, null);
+		View view2 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_rewards, null);
+		View view3 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_invite, null);
+		View view4 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_connect, null);
 		View view5 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_earn_credits, null);
 
 		mTabHost.addTab(mTabHost.newTabSpec(getString(R.string.earn_cred)).setIndicator(view1), FragEarnCredits.class, null);

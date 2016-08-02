@@ -1,5 +1,6 @@
 package com.cashmobi;
 
+import android.app.TabActivity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -8,7 +9,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTabHost;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -440,8 +443,8 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
                         switchFragment(new InputInvitationCodeFragment(), FragmentTAG.FragInputInvitationCode);
                         break;
                     case "InviteFriends":
-
-//                        ((ActivityMainWallet)aiContext).pager.setCurrentItem(2);
+						FragmentTabHost tabhost = (FragmentTabHost) getActivity().findViewById(android.R.id.tabhost);
+						tabhost.setCurrentTab(2);
                         break;
                     case "RateFive":
                         Uri uri = Uri.parse("market://details?id=" + aiContext.getPackageName());
