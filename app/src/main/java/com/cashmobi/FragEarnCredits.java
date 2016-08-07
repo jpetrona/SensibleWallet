@@ -935,7 +935,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 
 	private void callShowOffers() {
 		// Construct TJPlacement to show Offers web view from where users can download the latest offers for virtual currency.
-		offerwallPlacement = new TJPlacement(aiContext, "Sensible Offerwall Placement", new TJPlacementListener() {
+		offerwallPlacement = new TJPlacement(aiContext, "CashMobi", new TJPlacementListener() {
 		//offerwallPlacement = new TJPlacement(aiContext, "offerwall_unit", new TJPlacementListener() {
 			@Override
 			public void onRequestSuccess(final TJPlacement placement) {
