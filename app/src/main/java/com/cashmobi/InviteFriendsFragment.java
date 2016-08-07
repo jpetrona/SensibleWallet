@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.archiveinfotech.crashreport.Utils;
@@ -18,8 +19,11 @@ import com.commonutility.PreferenceConnector;
 import com.commonutility.WebService;
 import com.commonutility.WebServiceListener;
 import com.helper.MyUtils;
+import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
+
+import static com.cashmobi.ActivityMainWallet.countryIconUrl;
 
 public class InviteFriendsFragment extends Fragment implements OnClickListener, WebServiceListener {
 	private Context aiContext;
@@ -29,6 +33,7 @@ public class InviteFriendsFragment extends Fragment implements OnClickListener, 
 	private TextView txtInvitationCode;
 	private Button btnShareCopy, btnShare;
 	private static TextView creditWallet;
+	static ImageView image;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -38,6 +43,7 @@ public class InviteFriendsFragment extends Fragment implements OnClickListener, 
 		}
 		Utils.setFontAllView((ViewGroup)aiView);
 		MyUtils.sendScreenToGoogleAnalytics(getActivity().getApplication(), "Screen : Invite Friends");
+		image = (ImageView) aiView.findViewById(R.id.image_view_country_flag);
 
 		return aiView;
 	}
@@ -67,6 +73,13 @@ public class InviteFriendsFragment extends Fragment implements OnClickListener, 
 			((ActivityMainWallet) getActivity()).initCountryFlagIcon(aiView);
 		}
 
+		ImageView image = (ImageView) aiView.findViewById(R.id.image_view_country_flag);
+		if (!countryIconUrl.isEmpty()) {
+			Picasso.with(aiContext)
+					.load(countryIconUrl)
+					.error(R.drawable.ic_launcher)
+					.into(image);
+		}
 
 	}
 
@@ -111,6 +124,12 @@ public class InviteFriendsFragment extends Fragment implements OnClickListener, 
 		// TODO Auto-generated method stub
 		if(aiContext!=null && creditWallet!=null)
 			creditWallet.setText(PreferenceConnector.readInteger(aiContext, PreferenceConnector.WALLETPOINTS,0)+"");
-
+		if (!countryIconUrl.isEmpty()) {
+			if (image!=null)
+				Picasso.with(aiContext)
+					.load(countryIconUrl)
+					.error(R.drawable.ic_launcher)
+					.into(image);
+		}
 	}
 }

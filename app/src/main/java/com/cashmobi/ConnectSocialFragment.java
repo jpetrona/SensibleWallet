@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -20,6 +21,7 @@ import com.commonutility.WebService;
 import com.commonutility.WebServiceListener;
 import com.helper.MyUtils;
 import com.model.ConnectModel;
+import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -28,6 +30,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import static com.cashmobi.ActivityMainWallet.countryIconUrl;
 
 public class ConnectSocialFragment extends Fragment implements WebServiceListener {
 	private Context aiContext;
@@ -45,13 +49,14 @@ public class ConnectSocialFragment extends Fragment implements WebServiceListene
 	public static final String TAG_RESULT		= "RESULT";
 	public static final String TAG_MESSAGE		= "Message";
 	private static TextView creditWallet;
-
+	static ImageView image;
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		if (aiView == null) {
 			aiView = inflater.inflate(R.layout.fragment_social, container, false);
 		}
+		image = (ImageView) aiView.findViewById(R.id.image_view_country_flag);
 		Utils.setFontAllView((ViewGroup)aiView);
 		MyUtils.sendScreenToGoogleAnalytics(getActivity().getApplication(),"Social Connect");
 		return aiView;
@@ -79,6 +84,8 @@ public class ConnectSocialFragment extends Fragment implements WebServiceListene
 
 			((ActivityMainWallet)getActivity()).initCountryFlagIcon(aiView);
 		}
+
+
 		
 	}
 
@@ -138,6 +145,23 @@ public class ConnectSocialFragment extends Fragment implements WebServiceListene
 		// TODO Auto-generated method stub
 		if(aiContext!=null && creditWallet!=null)
 			creditWallet.setText(PreferenceConnector.readInteger(aiContext, PreferenceConnector.WALLETPOINTS,0)+"");
+		if (!countryIconUrl.isEmpty()) {
+			if (image!=null)
+				Picasso.with(aiContext)
+					.load(countryIconUrl)
+					.error(R.drawable.ic_launcher)
+					.into(image);
+		}
+	}
 
+	@Override
+	public void onResume() {
+		super.onResume();
+		if (!countryIconUrl.isEmpty()) {
+			Picasso.with(aiContext)
+					.load(countryIconUrl)
+					.error(R.drawable.ic_launcher)
+					.into(image);
+		}
 	}
 }

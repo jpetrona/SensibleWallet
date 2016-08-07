@@ -45,6 +45,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
+import android.widget.TabHost;
 import android.widget.TextView;
 
 import com.adapter.AdapterCountry;
@@ -78,6 +79,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import static com.cashmobi.ActivityMainWallet.countryIconUrl;
 
 @SuppressWarnings("deprecation")
 public class ActivityMainWallet extends BaseActivity implements WebServiceListener, NavigationView.OnNavigationItemSelectedListener{
@@ -124,6 +127,7 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_activity);
+
 		AppLovinSdk.initializeSdk(this);
 		HeyzapAds.start(getString(R.string.heyzap_app_id), this);
 		//HeyzapAds.startTestActivity(this);
@@ -296,7 +300,7 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 				}
 			}
 		});
-
+		adapterTab = new GoogleMusicAdapter(getSupportFragmentManager());
 		/*adapterTab = new GoogleMusicAdapter(getSupportFragmentManager());
 		pager = (ViewPager)findViewById(R.id.pager);
 		pager.setOnPageChangeListener(new OnPageChangeListener() {
@@ -371,9 +375,9 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 				DISPLAY_MESSAGE_ACTION));
 
 
-
-
 		initTabs();
+
+
 	}
 
     public void initCountryFlagIcon(View aiView) {
@@ -708,14 +712,14 @@ Chartboost.onBackPressed();
 		Chartboost.onStop(this);
 	}
 
-
+	public static String countryIconUrl = "";
 	@Override
 	public void onWebServiceActionComplete(String result, String url) {
 		System.out.println("..pretext.." + result + ".........jsonresponse....." + url);
 		countryList = new ArrayList<CountryListModel>();
 		if (url.contains(GlobalVariables.COUNTRYLIST)) {
 
-            String countryIconUrl = "";
+
 
 			try {
 				JSONObject json = new JSONObject(result);
@@ -732,7 +736,8 @@ Chartboost.onBackPressed();
 
                     if(str_country_id.equals(PreferenceConnector.readString(aiContext, PreferenceConnector.COUNTRYID, "2"))) {
                         countryIconUrl = str_country_logo;
-                    }
+						FragEarnCredits.onUpdateView(aiContext);
+					}
 
 					countryList.add(new CountryListModel(str_country_id, str_country_status, 
 							str_country_price_sign, str_country_name, str_country_logo));
@@ -747,8 +752,8 @@ Chartboost.onBackPressed();
                 showCountryDialog(aiContext);
             }
             isShowFlagDialog = true;
-            /*for(int i = 0; i < pager.getAdapter().getCount(); i++) {
-                Fragment frag = ((GoogleMusicAdapter) pager.getAdapter()).getItem(i);
+            /*for(int i = 0; i < adapterTab.getCount(); i++) {
+                android.app.Fragment frag = getFragmentManager().findFragmentByTag("Rewards");
                 View aiView = frag.getView();
                 if(aiView == null) continue;
                 ImageView image = (ImageView) aiView.findViewById(R.id.image_view_country_flag);
@@ -819,9 +824,12 @@ Chartboost.onBackPressed();
 						countryList.get(aiPos).getStr_country_logo());
 
 				String countryIconUrl = countryList.get(aiPos).getStr_country_logo();
-
+				ActivityMainWallet.countryIconUrl = countryIconUrl;
 				dialog.dismiss();
 				ViewRewardsFragment.onUpdateView(aiContext);
+				ConnectSocialFragment.onUpdateView(aiContext);
+				FragEarnCredits.onUpdateView(aiContext);
+				InviteFriendsFragment.onUpdateView(aiContext);
 
 				/*for (int i = 0; i < pager.getAdapter().getCount(); i++) {
 					Fragment frag = ((GoogleMusicAdapter) pager.getAdapter()).getItem(i);
@@ -1236,6 +1244,31 @@ Chartboost.onBackPressed();
 
 	private void initTabs() {
 		mTabHost = (FragmentTabHost) findViewById(android.R.id.tabhost);
+		mTabHost.setOnTabChangedListener(new TabHost.OnTabChangeListener() {
+			@Override
+			public void onTabChanged(final String tabId) {
+				Fragment fg = getSupportFragmentManager().findFragmentByTag(tabId);
+				Log.d(TAG, "onTabChanged(): " + tabId + ", fragment " + fg);
+
+				if (fg == null) {
+					new Handler().postDelayed(new Runnable() {
+						@Override
+						public void run() {
+							Fragment fg = getSupportFragmentManager().findFragmentByTag(tabId);
+							Log.d(TAG, "onTabChanged() delay 50ms: " + tabId + ", fragment " + fg);
+							View aiView = fg.getView();
+							ImageView image = (ImageView) aiView.findViewById(R.id.image_view_country_flag);
+							if (!countryIconUrl.isEmpty()) {
+								Picasso.with(aiContext)
+										.load(countryIconUrl)
+										.error(R.drawable.ic_launcher)
+										.into(image);
+							}
+						}
+					}, 50);
+				}
+			}
+		});
 		mTabHost.setup(this, getSupportFragmentManager(), android.R.id.tabcontent);
 
 		View view1 = LayoutInflater.from(ActivityMainWallet.this).inflate(R.layout.tab_indicator_earn_credits, null);
@@ -1250,4 +1283,5 @@ Chartboost.onBackPressed();
 		mTabHost.addTab(mTabHost.newTabSpec(getString(R.string.connect)).setIndicator(view4), ConnectSocialFragment.class, null);
 
 	}
+
 }

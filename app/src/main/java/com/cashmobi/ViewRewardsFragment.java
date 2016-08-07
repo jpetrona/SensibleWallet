@@ -15,6 +15,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -33,6 +34,7 @@ import com.model.CountryListModel;
 import com.model.ExpandableModel;
 import com.model.GroupItemModel;
 import com.model.GroupModel;
+import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -41,6 +43,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import static com.cashmobi.ActivityMainWallet.countryIconUrl;
 
 public class ViewRewardsFragment extends Fragment implements WebServiceListener {
 	private Context aiContext;
@@ -72,6 +76,7 @@ public class ViewRewardsFragment extends Fragment implements WebServiceListener 
 	private static TextView txtCountry;
 	private static TextView creditWallet;
     private static RoundImageView countryFlagImageView;
+	static ImageView image;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -79,6 +84,7 @@ public class ViewRewardsFragment extends Fragment implements WebServiceListener 
 		if (aiView == null) {
 			aiView = inflater.inflate(R.layout.fragment_rewards, container, false);
 		}
+		image = (ImageView) aiView.findViewById(R.id.image_view_country_flag);
 		Utils.setFontAllView((ViewGroup) aiView);
 		return aiView;
 	}
@@ -155,6 +161,8 @@ public class ViewRewardsFragment extends Fragment implements WebServiceListener 
 					0)+"");
 
 		((ActivityMainWallet)getActivity()).initCountryFlagIcon(aiView);
+
+
 	}
 
 	public void LoadCountryDetail() {
@@ -322,6 +330,13 @@ public class ViewRewardsFragment extends Fragment implements WebServiceListener 
 
 //            ((ActivityMainWallet)aiContext).setCountryFlagIcon(countryFlagImageView);
 
+		}
+		if (!countryIconUrl.isEmpty()) {
+			if (image!=null)
+			Picasso.with(aiContext)
+					.load(countryIconUrl)
+					.error(R.drawable.ic_launcher)
+					.into(image);
 		}
 	}
 	private void switchFragment(Fragment fragment, String tag) {
