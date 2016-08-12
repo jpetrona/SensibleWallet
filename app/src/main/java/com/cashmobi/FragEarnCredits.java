@@ -351,11 +351,11 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 					getResources().getString(R.string.offer_trialpay)	,
 					getResources().getString(R.string.offer_super_sonic)	,
                     getResources().getString(R.string.offer_adxmi)	,
-					getResources().getString(R.string.offer_tapjoy)	,
+//					getResources().getString(R.string.offer_tapjoy)	,
                     getResources().getString(R.string.offer_adgate_rewards)	,
 					getResources().getString(R.string.offer_nativex)	,
 					getResources().getString(R.string.offer_ascend_media)	,
-//					getResources().getString(R.string.offer_cpalead)	,
+					getResources().getString(R.string.offer_cpalead)	,
 					getResources().getString(R.string.offer_super_rewards)	,
 //					getResources().getString(R.string.offer_unity),
 //					getResources().getString(R.string.offer_chartboost),
@@ -393,7 +393,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 			setUpSuperSonic();
 			connectToTapjoy();
 			setUpVungle();
-			//setupSuperRewards();
+//			setupSuperRewards();
 			setUpAdColony();
 
         }
@@ -493,11 +493,11 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
             "TP",
 			"SS",
             "ADXMI",
-            "TJ",
+//            "TJ",
             "AR",
 			"NX",
             "AM",
-//            "CL",
+            "CL",
 			"SR",
 //            "UT",
 //            "CB",

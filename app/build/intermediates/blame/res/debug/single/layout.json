@@ -4,32 +4,28 @@
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_redeem_reward.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_activity.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\login_activity.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\com_facebook_activity_layout.xml"
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_view_video_play.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\SensibleWallet\\unity-ads\\unspecified\\res\\layout\\unityads_view_video_play.xml"
     },
     {
-        "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_progress.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\src\\main\\res\\layout\\dialog_progress.xml"
     },
     {
-        "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_forgot_password.xml",
-        "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\src\\main\\res\\layout\\dialog_forgot_password.xml"
+        "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_country_list_item.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\src\\main\\res\\layout\\select_country_list_item.xml"
+    },
+    {
+        "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_forgot_password.xml",
+        "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\src\\main\\res\\layout\\dialog_forgot_password.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_country_dialog.xml",
@@ -38,14 +34,6 @@
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_indicator_earn_credits.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\tab_indicator_earn_credits.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\invited_friends_list_item.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\invited_friends_list_item.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
@@ -64,12 +52,8 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_social.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\messenger_button_send_white_large.xml"
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_large.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -77,7 +61,7 @@
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\messenger_button_send_white_round.xml"
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_round.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
@@ -88,32 +72,12 @@
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_country_dialog.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\select_country_dialog.xml"
-    },
-    {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_edit_profile.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_edit_profile.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_social.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_social.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_activity.xml",
@@ -132,48 +96,20 @@
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_input_friend_code.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_input_friend_code.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_view_video_play.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\SensibleWallet\\unity-ads\\unspecified\\res\\layout\\unityads_view_video_play.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\messenger_button_send_white_small.xml"
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_tooltip_bubble.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_rewards.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_rewards.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_view_video_paused.xml",
@@ -184,24 +120,20 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
-        "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\com_facebook_activity_layout.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_invite.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_invite.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
@@ -214,10 +146,6 @@
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_drawer_header.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\nav_drawer_header.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\earn_credits_list_item.xml",
@@ -240,28 +168,20 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_rewards.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_rewards.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_two_button_dialog.xml",
@@ -270,10 +190,6 @@
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_indicator_connect.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\layout\\tab_indicator_connect.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_view_video_play.xml",
@@ -300,10 +216,6 @@
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\layout\\social_connect_list_item.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_daily_reward.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_daily_reward.xml"
     },
@@ -328,28 +240,12 @@
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_social.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_indicator_rewards.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\tab_indicator_rewards.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_button_audio_toggle.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\SensibleWallet\\unity-ads\\unspecified\\res\\layout\\unityads_button_audio_toggle.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_small.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\messenger_button_send_blue_round.xml"
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_round.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
@@ -380,32 +276,16 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\SensibleWallet\\unity-ads\\unspecified\\res\\layout\\unityads_button_pause.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_round.xml"
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_drawer_header.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\nav_drawer_header.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_daily_reward.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_daily_reward.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\src\\main\\res\\layout\\list_item.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_button_audio_toggle.xml",
@@ -416,20 +296,8 @@
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_faq.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_faq.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\messenger_button_send_blue_large.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
@@ -440,20 +308,8 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\social_connect_list_item.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\social_connect_list_item.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -472,24 +328,12 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_activity_no_email.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\login_activity_no_email.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_activity.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\src\\main\\res\\layout\\splash_activity.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\earn_credits_list_item.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\earn_credits_list_item.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_indicator_invite.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\tab_indicator_invite.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_two_button_dialog.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\custom_two_button_dialog.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -500,16 +344,12 @@
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\toolbar.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\com_facebook_tooltip_bubble.xml"
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_indicator_rewards.xml",
@@ -530,10 +370,6 @@
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_forgot_password.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\dialog_forgot_password.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_indicator_invite.xml",
@@ -558,10 +394,6 @@
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_edit_profile.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_edit_profile.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_button_audio_toggle.xml",
@@ -600,18 +432,6 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_earn_credits.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_country_list_item.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\select_country_list_item.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_activity.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\main_activity.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_edit_profile.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_edit_profile.xml"
     },
@@ -634,10 +454,6 @@
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -668,14 +484,6 @@
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\layout\\dialog_forgot_password.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_view_video_paused.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\SensibleWallet\\unity-ads\\unspecified\\res\\layout\\unityads_view_video_paused.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_progress.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\dialog_progress.xml"
-    },
-    {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
@@ -696,28 +504,12 @@
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_activity.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\layout\\splash_activity.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\list_item.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_button_pause.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\SensibleWallet\\unity-ads\\unspecified\\res\\layout\\unityads_button_pause.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -728,28 +520,12 @@
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\earn_credits_list_item.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\earn_credits_list_item.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register_activity.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\register_activity.xml"
-    },
-    {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_invited_friends.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_invited_friends.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -762,10 +538,6 @@
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\list_item.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_progress.xml",
@@ -790,10 +562,6 @@
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reward_list_header_item.xml",
@@ -836,10 +604,6 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_redeem_reward.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_redeem_reward.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_white_round.xml"
     },
@@ -868,10 +632,6 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_invited_friends.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_invited_friends.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_action.xml"
     },
@@ -896,24 +656,8 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
@@ -922,10 +666,6 @@
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -964,16 +704,8 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_invite.xml",
@@ -1004,10 +736,6 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reward_list_header_item.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\reward_list_header_item.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
@@ -1020,10 +748,6 @@
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dashboard_activity.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\dashboard_activity.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.12.1\\res\\layout\\messenger_button_send_white_large.xml"
     },
@@ -1033,15 +757,7 @@
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\messenger_button_send_blue_small.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_small.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register_activity.xml",
@@ -1050,10 +766,6 @@
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\messenger_button_send_blue_round.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -1080,10 +792,6 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\custom_two_button_dialog.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_large.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_navigation_item_separator.xml"
     },
@@ -1097,7 +805,7 @@
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\com_facebook_login_fragment.xml"
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -1108,28 +816,12 @@
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\layout\\select_country_list_item.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_large.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_small.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -1142,10 +834,6 @@
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_view_video_paused.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\SensibleWallet\\unity-ads\\unspecified\\res\\layout\\unityads_view_video_paused.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -1176,10 +864,6 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_round.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
@@ -1192,24 +876,12 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_points_bar.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\layout\\top_points_bar.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_indicator_connect.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\tab_indicator_connect.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_view_video_paused.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\SensibleWallet\\unity-ads\\unspecified\\res\\layout\\unityads_view_video_paused.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -1228,16 +900,8 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_earn_credits.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_earn_credits.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
@@ -1246,10 +910,6 @@
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_activity_no_email.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\layout\\login_activity_no_email.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_activity.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\splash_activity.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
@@ -1276,14 +936,6 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_invite.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_invite.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_layout.xml"
     },
@@ -1294,10 +946,6 @@
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_completed_offers.xml",
@@ -1314,10 +962,6 @@
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
@@ -1340,10 +984,6 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_tab_text.xml"
     },
@@ -1353,7 +993,7 @@
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
-        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.0\\res\\layout\\messenger_button_send_blue_large.xml"
+        "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_progress.xml",
@@ -1366,10 +1006,6 @@
     {
         "merged": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unityads_button_pause.xml",
         "source": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\SensibleWallet\\unity-ads\\unspecified\\res\\layout\\unityads_button_pause.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_points_bar.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\top_points_bar.xml"
     },
     {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -1432,19 +1068,11 @@
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
         "merged": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register_activity.xml",
         "source": "F:\\Volumes\\Documents\\Cloud\\Dropbox (Personal)\\Sensible Wallet Source Code\\Sensible Wallet Update 2.5\\3.0 Source Code\\SensibleWallet\\app\\src\\main\\res\\layout\\register_activity.xml"
     },
     {
         "merged": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_edit_profile.xml",
         "source": "F:\\Sharjeel'sWork\\Workspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_edit_profile.xml"
-    },
-    {
-        "merged": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_completed_offers.xml",
-        "source": "F:\\Sharjeel'sWork\\FreelancingWorkspace\\SensibleWallet\\app\\src\\main\\res\\layout\\fragment_completed_offers.xml"
     }
 ]

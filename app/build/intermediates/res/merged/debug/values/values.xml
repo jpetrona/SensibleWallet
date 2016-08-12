@@ -815,8 +815,8 @@
     <string name="api_ascendmedia_publisher_id">105633</string>
     <string name="api_chartboost_app_id">56d88be4a8b63c607ca56522</string>
     <string name="api_chartboost_app_signature">4137667b19d8d442a895ffbe33c90798033bed69</string>
-    <string name="api_cpalead_gateway_id">907289</string>
-    <string name="api_cpalead_publisher_id">372199</string>
+    <string name="api_cpalead_gateway_id">1084146</string>
+    <string name="api_cpalead_publisher_id">474955</string>
     <string name="api_nativex_app_id">91043</string>
     <string name="api_persona_app_id">84bd29a809d93f7d2f4e0e1a01a6517b</string>
     <string name="api_super_rewards_app_package_name">com.swallet</string>
