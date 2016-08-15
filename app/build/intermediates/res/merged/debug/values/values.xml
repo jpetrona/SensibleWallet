@@ -819,8 +819,8 @@
     <string name="api_cpalead_publisher_id">474955</string>
     <string name="api_nativex_app_id">91043</string>
     <string name="api_persona_app_id">84bd29a809d93f7d2f4e0e1a01a6517b</string>
-    <string name="api_super_rewards_app_package_name">com.swallet</string>
-    <string name="api_super_rewards_hash">jprctxjiqmi.393019066550</string>
+    <string name="api_super_rewards_app_package_name">com.cashmobi</string>
+    <string name="api_super_rewards_hash">pllqmxsqkfn.982657919947</string>
     <string name="api_super_sonic_app_key">50e33475</string>
     <string name="api_tapjoy_sdk_key">TJd6SdcsSqy5zg1jg-c_KQECXIwECSnW6rlM7Mj3XZVBG0cCzuTti3p4pD9Y</string>
     <string name="api_trialpay_app_key">d43e2b8deb3b00c577f1881a0ec583ab</string>
@@ -957,8 +957,8 @@
     <string name="screen_input_friend_id_hint_invitation_code">Friend\'s Invitation Code</string>
     <string name="screen_invite_friends_button_copy_id">Copy Invitation ID</string>
     <string name="screen_invite_friends_button_share">Share</string>
-    <string name="screen_invite_friends_instruction_1">Share your Sensible Wallet Id with Your Friends on Social Media and Earn Big!</string>
-    <string name="screen_invite_friends_instruction_2">Your Friend Installs Sensible Wallet and Enters Your Invitation ID after earning 400 Credits under Earn Credits!"</string>
+    <string name="screen_invite_friends_instruction_1">Share your CashMobi Id with Your Friends on Social Media and Earn Big!</string>
+    <string name="screen_invite_friends_instruction_2">Your Friend Installs CashMobi and Enters Your Invitation ID after earning 400 Credits under Earn Credits!"</string>
     <string name="screen_invite_friends_instruction_3">Your Friend Receives 200 Credits and \n You Receive 200 Credits For Every Friend You Invite!</string>
     <string name="screen_invite_friends_invitation_id_label">Invitation ID:</string>
     <string name="screen_login_button_facebook_login">Facebook Connect</string>
@@ -967,7 +967,7 @@
     <string name="screen_login_button_login">Login</string>
     <string name="screen_login_button_sign_up">Sign-up</string>
     <string name="screen_login_or_label">Or</string>
-    <string name="screen_login_welcome_label">Welcome to Sensible Wallet!</string>
+    <string name="screen_login_welcome_label">Welcome to CashMobi!</string>
     <string name="screen_register_button_start">Start Earning</string>
     <string name="screen_register_hint_confirm_password">Confirm Password</string>
     <string name="screen_register_hint_email">Email Address</string>
@@ -1009,7 +1009,7 @@
     <string name="unityads_video_end_suffix">seconds</string>
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
     <string name="welcome_disclaimer_message">Disclaimer: After you Earn 400 Credits, You can Enter Your Friend\'s Invite ID to Earn an additional 200 Credits! Share Your Invite ID to Earn More!</string>
-    <string name="welcome_disclaimer_title">Welcome to Sensible Wallet!</string>
+    <string name="welcome_disclaimer_title">Welcome to CashMobi!</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

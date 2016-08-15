@@ -815,7 +815,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 
 		System.out.println(Trialpay.getSid()+":::::::::::::::::::tpButtonClickEvent.getFullName()");
 		// Create reference to "button1" event of "button_clicked" type
-		tpButtonClickEvent = Trialpay.event.buttonClicked("sensible_wallet");
+		tpButtonClickEvent = Trialpay.event.buttonClicked("cashmobi");
 		
 
 	}
