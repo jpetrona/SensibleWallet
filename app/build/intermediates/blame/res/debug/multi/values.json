@@ -50409,14 +50409,7 @@
                     "endOffset": 69425
                 },
                 "from": {
-                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\settings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 765,
-                        "endColumn": 75,
-                        "endOffset": 836
-                    }
+                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\settings.xml"
                 }
             },
             {
@@ -50428,14 +50421,7 @@
                     "endOffset": 69501
                 },
                 "from": {
-                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\settings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 688,
-                        "endColumn": 75,
-                        "endOffset": 759
-                    }
+                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\settings.xml"
                 }
             },
             {
@@ -50459,7 +50445,14 @@
                     "endOffset": 69670
                 },
                 "from": {
-                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\settings.xml"
+                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\settings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 987,
+                        "endColumn": 107,
+                        "endOffset": 1090
+                    }
                 }
             },
             {
@@ -52079,14 +52072,7 @@
                     "endOffset": 81512
                 },
                 "from": {
-                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 58,
-                        "startColumn": 4,
-                        "startOffset": 3760,
-                        "endColumn": 134,
-                        "endOffset": 3890
-                    }
+                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -52098,14 +52084,7 @@
                     "endOffset": 81683
                 },
                 "from": {
-                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 59,
-                        "startColumn": 4,
-                        "startOffset": 3896,
-                        "endColumn": 170,
-                        "endOffset": 4062
-                    }
+                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -52213,14 +52192,7 @@
                     "endOffset": 82413
                 },
                 "from": {
-                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 39,
-                        "startColumn": 4,
-                        "startOffset": 2491,
-                        "endColumn": 75,
-                        "endOffset": 2562
-                    }
+                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -52724,14 +52696,7 @@
                     "endOffset": 85530
                 },
                 "from": {
-                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 130,
-                        "startColumn": 4,
-                        "startOffset": 8667,
-                        "endColumn": 73,
-                        "endOffset": 8736
-                    }
+                    "file": "F:\\MyWork\\Sensible Wallet_Package_3\\SensibleWallet\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {

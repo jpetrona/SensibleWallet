@@ -146,7 +146,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
             "Rate us Five Stars and Earn 50 credits!",
 			"Get Your Daily Login Bonus!\nCollect Credits Every Day\n",
 //            "Try Apps for at least 3 minutes",
-//            "Try Apps for at least 3 minutes",
+            "Try Apps for at least 3 minutes",
 			"Try Apps for at least 3 minutes",
 			"Try Apps for at Least 3 Minutes",
 			"Try Apps for at Least 3 Minutes",
@@ -351,7 +351,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 					getResources().getString(R.string.offer_trialpay)	,
 					getResources().getString(R.string.offer_super_sonic)	,
                     getResources().getString(R.string.offer_adxmi)	,
-//					getResources().getString(R.string.offer_tapjoy)	,
+					getResources().getString(R.string.offer_tapjoy)	,
                     getResources().getString(R.string.offer_adgate_rewards)	,
 					getResources().getString(R.string.offer_nativex)	,
 					getResources().getString(R.string.offer_ascend_media)	,
@@ -493,7 +493,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
             "TP",
 			"SS",
             "ADXMI",
-//            "TJ",
+            "TJ",
             "AR",
 			"NX",
             "AM",
@@ -935,7 +935,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 
 	private void callShowOffers() {
 		// Construct TJPlacement to show Offers web view from where users can download the latest offers for virtual currency.
-		offerwallPlacement = new TJPlacement(aiContext, "CashMobi", new TJPlacementListener() {
+		offerwallPlacement = new TJPlacement(aiContext, "CashMobi Rewards", new TJPlacementListener() {
 		//offerwallPlacement = new TJPlacement(aiContext, "offerwall_unit", new TJPlacementListener() {
 			@Override
 			public void onRequestSuccess(final TJPlacement placement) {
