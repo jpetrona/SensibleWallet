@@ -337,6 +337,7 @@ public class ViewRewardsFragment extends Fragment implements WebServiceListener 
 					.load(countryIconUrl)
 					.error(R.drawable.ic_launcher)
 					.into(image);
+
 		}
 	}
 	private void switchFragment(Fragment fragment, String tag) {
@@ -346,5 +347,11 @@ public class ViewRewardsFragment extends Fragment implements WebServiceListener 
 			ActivityMainWallet mActivity = (ActivityMainWallet) getActivity();
 			mActivity.switchContent(fragment, tag);
 		}
+	}
+
+	@Override
+	public void onResume() {
+		super.onResume();
+		LoadCountryDetail();
 	}
 }

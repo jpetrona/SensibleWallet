@@ -830,7 +830,8 @@ Chartboost.onBackPressed();
 				ConnectSocialFragment.onUpdateView(aiContext);
 				FragEarnCredits.onUpdateView(aiContext);
 				InviteFriendsFragment.onUpdateView(aiContext);
-
+				/*ViewRewardsFragment viewRewardsFragment = new ViewRewardsFragment();
+				viewRewardsFragment.LoadCountryDetail();*/
 				/*for (int i = 0; i < pager.getAdapter().getCount(); i++) {
 					Fragment frag = ((GoogleMusicAdapter) pager.getAdapter()).getItem(i);
 					if (frag instanceof ViewRewardsFragment) {
