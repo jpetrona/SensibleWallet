@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:1:1-253:12
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:1:1-266:12
 	package
 		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:2:5-27
 		INJECTED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml
 		INJECTED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:4:5-30
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml
 		INJECTED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:3:5-29
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml
 		INJECTED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml
 	xmlns:android
@@ -105,7 +105,7 @@ ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\Andro
 	android:name
 		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:29:9-59
 application
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:32:5-251:19
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:32:5-264:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.14.1\AndroidManifest.xml:28:5-37:19
 MERGED from [com.android.support:customtabs:23.4.0] F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
@@ -433,70 +433,86 @@ ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\Andro
 		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:212:13-71
 	android:name
 		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:210:13-69
-activity#net.adxmi.android.AdBrowser
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:215:9-219:20
+activity#com.vungle.publisher.VideoFullScreenAdActivity
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:215:9-219:73
 	android:configChanges
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:217:13-83
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:217:13-74
 	android:theme
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:218:13-66
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:219:13-71
 	android:name
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:216:13-55
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:215:19-80
+activity#com.vungle.publisher.MraidFullScreenAdActivity
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:221:9-225:85
+	android:configChanges
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:223:13-74
+	android:theme
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:225:13-83
+	android:name
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:221:19-80
+activity#net.adxmi.android.AdBrowser
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:228:9-232:20
+	android:configChanges
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:230:13-83
+	android:theme
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:231:13-66
+	android:name
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:229:13-55
 service#net.adxmi.android.AdService
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:220:9-223:19
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:233:9-236:19
 	android:exported
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:222:13-37
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:235:13-37
 	android:name
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:221:13-55
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:234:13-55
 service#net.adxmi.android.ExpService
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:226:9-229:19
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:239:9-242:19
 	android:exported
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:228:13-37
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:241:13-37
 	android:name
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:227:13-56
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:240:13-56
 receiver#net.adxmi.android.AdReceiver
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:231:9-237:20
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:244:9-250:20
 	android:name
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:232:13-56
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:245:13-56
 intent-filter#android.intent.action.PACKAGE_ADDED
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:233:13-236:29
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:246:13-249:29
 action#android.intent.action.PACKAGE_ADDED
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:234:17-78
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:247:17-78
 	android:name
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:234:25-75
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:247:25-75
 data
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:235:17-50
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:248:17-50
 	android:scheme
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:235:23-47
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:248:23-47
 activity#com.heyzap.sdk.ads.HeyzapInterstitialActivity
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:238:9-163
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:251:9-163
 	android:configChanges
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:238:80-160
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:251:80-160
 	android:name
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:238:19-79
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:251:19-79
 activity#com.heyzap.sdk.ads.HeyzapVideoActivity
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:239:9-156
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:252:9-156
 	android:configChanges
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:239:73-153
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:252:73-153
 	android:name
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:239:19-72
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:252:19-72
 activity#com.heyzap.sdk.ads.HeyzapProxyActivity
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:240:9-75
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:253:9-75
 	android:name
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:240:19-72
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:253:19-72
 activity#com.heyzap.sdk.ads.VASTActivity
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:241:9-149
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:254:9-149
 	android:configChanges
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:241:66-146
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:254:66-146
 	android:name
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:241:19-65
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:254:19-65
 activity#com.heyzap.sdk.ads.MediationTestActivity
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:242:9-77
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:255:9-77
 	android:name
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:242:19-74
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:255:19-74
 receiver#com.heyzap.sdk.ads.PackageAddedReceiver
-ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:243:9-248:20
+ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:256:9-261:20
 	android:name
-		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:243:19-73
+		ADDED from F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\src\main\AndroidManifest.xml:256:19-73
 activity#com.facebook.CustomTabActivity
 ADDED from [com.facebook.android:facebook-android-sdk:4.14.1] F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.14.1\AndroidManifest.xml:33:9-36:20
 	android:exported

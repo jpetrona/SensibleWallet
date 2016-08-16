@@ -209,11 +209,11 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 	UnityAds.init(getActivity(),getString(R.string.unity_ads_id),this);
 	UnityAds.setDebugMode(Boolean.parseBoolean(getString(R.string.unity_ads_debug_mode)));
 	UnityAds.setTestMode(Boolean.parseBoolean(getString(R.string.unity_ads_test_mode)));
-		adDialog = AppLovinInterstitialAd.create(AppLovinSdk.getInstance(getActivity()), getActivity());
-		adDialog.setAdDisplayListener(this);
+		/*adDialog = AppLovinInterstitialAd.create(AppLovinSdk.getInstance(getActivity()), getActivity());
+		adDialog.setAdDisplayListener(this);*/
 
 
-		revmob = RevMob.startWithListener(getActivity(), new RevMobAdsListener(){
+		/*revmob = RevMob.startWithListener(getActivity(), new RevMobAdsListener(){
 			@Override
 			public void onRevMobSessionIsStarted() {
 				createVideo();
@@ -233,11 +233,11 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 			public void onRevMobAdNotReceived(String s) {
 				super.onRevMobAdNotReceived(s);
 			}
-		});
+		});*/
 
 
 		Utils.setFontAllView((ViewGroup) aiView);
-		VideoAd.setOnStatusListener(new HeyzapAds.OnStatusListener() {
+		/*VideoAd.setOnStatusListener(new HeyzapAds.OnStatusListener() {
 			@Override
 			public void onShow(String s) {
 				VideoAd.fetch();
@@ -279,14 +279,14 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 
 			}
 
-		});
+		});*/
 
 
 
 		return aiView;
 	}
 
-	private void createVideo() {
+	/*private void createVideo() {
 		video = revmob.createVideo(getActivity(), new RevMobAdsListener(){
 
 			@Override
@@ -312,7 +312,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 			}
 		});
 
-	}
+	}*/
 
 	@Override
 	public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
@@ -1107,7 +1107,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 
 		// set any configuration options you like.
 		overrideConfig.setIncentivized(true);
-		overrideConfig.setSoundEnabled(false);
+		overrideConfig.setSoundEnabled(true);
 
 		
 	}

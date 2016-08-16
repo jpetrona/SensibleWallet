@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cashmobi"
-    android:versionCode="15"
-    android:versionName="3.1" >
+    android:versionCode="2"
+    android:versionName="1" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -218,6 +218,16 @@
             android:name="com.vungle.publisher.FullScreenAdActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <!-- Required activities for playback of Vungle video Ads -->
+
+        <activity
+            android:name="com.vungle.publisher.VideoFullScreenAdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.vungle.publisher.MraidFullScreenAdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
         <activity
             android:name="net.adxmi.android.AdBrowser"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"

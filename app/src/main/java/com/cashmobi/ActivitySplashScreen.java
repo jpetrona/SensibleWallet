@@ -1,5 +1,7 @@
 package com.cashmobi;
 
+import android.*;
+import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -158,7 +160,7 @@ private static final int MY_PERMISSIONS_PHONE_STATE = 101;
 				// No explanation needed, we can request the permission.
 
 				ActivityCompat.requestPermissions(context,
-						new String[]{android.Manifest.permission.READ_PHONE_STATE}, MY_PERMISSIONS_PHONE_STATE
+						new String[]{android.Manifest.permission.READ_PHONE_STATE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, MY_PERMISSIONS_PHONE_STATE
 				);
 
 				// MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
