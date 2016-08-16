@@ -146,8 +146,8 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
             "Rate us Five Stars and Earn 50 credits!",
 			"Get Your Daily Login Bonus!\nCollect Credits Every Day\n",
 //            "Try Apps for at least 3 minutes",
-            "Try Apps for at least 3 minutes",
-			"Try Apps for at least 3 minutes",
+//            "Try Apps for at least 3 minutes",
+//			"Try Apps for at least 3 minutes",
 			"Try Apps for at Least 3 Minutes",
 			"Try Apps for at Least 3 Minutes",
 			"Try Apps for at Least 3 Minutes",
@@ -159,7 +159,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 //            "Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
 //            "Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
             "Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
-            //"Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
+            "Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
             //"Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
             //"Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits"
 	};
@@ -348,10 +348,10 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
                     getResources().getString(R.string.offer_rate_app)	,
 					getResources().getString(R.string.offer_daily_reward)	,
 //					getResources().getString(R.string.offer_persona)	,
-					getResources().getString(R.string.offer_trialpay)	,
+//					getResources().getString(R.string.offer_trialpay)	,
 					getResources().getString(R.string.offer_super_sonic)	,
                     getResources().getString(R.string.offer_adxmi)	,
-					getResources().getString(R.string.offer_tapjoy)	,
+//					getResources().getString(R.string.offer_tapjoy)	,
                     getResources().getString(R.string.offer_adgate_rewards)	,
 					getResources().getString(R.string.offer_nativex)	,
 					getResources().getString(R.string.offer_ascend_media)	,
@@ -363,7 +363,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 					getResources().getString(R.string.offer_adcolony),
 					//getResources().getString(R.string.offer_heyzap),
 					//getResources().getString(R.string.offer_revmob),
-					//getResources().getString(R.string.offer_vungle)	,
+					getResources().getString(R.string.offer_vungle)	,
 			};
 
 			for (int i = 0; i < strCreditOfferName.length; i++) {
@@ -388,10 +388,10 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 
             setupAXDMI();
 			loadListView();
-			setUpPersonaSdk();
-			trailPay();
+//			setUpPersonaSdk();
+//			trailPay();
 			setUpSuperSonic();
-			connectToTapjoy();
+//			connectToTapjoy();
 			setUpVungle();
 //			setupSuperRewards();
 			setUpAdColony();
@@ -490,10 +490,10 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
             "RateFive",
             "DailyReward",
 //			"PS",
-            "TP",
+//            "TP",
 			"SS",
             "ADXMI",
-            "TJ",
+//            "TJ",
             "AR",
 			"NX",
             "AM",
@@ -505,7 +505,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
             "AC",
             //"HZ",
             //"RM",
-			//"VG",
+			"VG",
 
     };
 
@@ -587,7 +587,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
             case "VG":
                 final AdConfig overrideConfig = new AdConfig();
                 overrideConfig.setIncentivized(true);
-                overrideConfig.setSoundEnabled(false);
+                overrideConfig.setSoundEnabled(true);
                 vunglePub.playAd(overrideConfig);
 				MyUtils.sendEventToGoogleAnalytics(getActivity().getApplication(), CATEGORY_OFFERWALL, "Vungle");
 
