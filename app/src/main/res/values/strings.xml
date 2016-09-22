@@ -4,6 +4,8 @@
     <!-- String settings for disclaimer messages -->
     <string name="disclaimer_redeem">Please make sure the email you input above is correct and valid.\nWe\'ll be sending you an email with the gift card code within 48 hours, please be sure to check.</string>
     <string name="disclaimer_paypal_redeem">Please make sure the PayPal account you input above is correct and valid.\nWe\'ll be transferring your redeemed rewards to your account within 48 hours, please be sure to check.\nPayPal might charge additional transaction fees.</string>
+    <string name="disclaimer_bitcoin_redeem">Please make sure the Bitcoin email address is correct.\nYour Bitcoin cash should be received within 48 hours</string>
+    <string name="disclaimer_play_redeem">Please make sure the Google email address is correct.\nYour Google play gift card should be received within 48 hours</string>
 
     <!-- String settings for screen titles -->
     <string name="title_screen_assistance">Assistance</string>
@@ -73,22 +75,22 @@
     <string name="offer_invite_friends">Invite Friends</string>
     <string name="offer_rate_app">Rate us on Google Play!</string>
     <string name="offer_daily_reward">Daily Credit Reward</string>
-    <string name="offer_adxmi">ADXMI</string>
-    <string name="offer_super_rewards">SuperRewards</string>
-    <string name="offer_super_sonic">SuperSonic</string>
-    <string name="offer_ascend_media">AdscendMedia</string>
-    <string name="offer_tapjoy">TapJoy</string>
-    <string name="offer_nativex">NativeX</string>
-    <string name="offer_adgate_rewards">AdGateMedia</string>
-    <string name="offer_trialpay">TrialPay</string>
-    <string name="offer_persona">Personaly</string>
-    <string name="offer_cpalead">CPALead</string>
-    <string name="offer_vungle">Vungle</string>
-    <string name="offer_chartboost">Chartboost</string>
-    <string name="offer_applovin">AppLovin</string>
-    <string name="offer_heyzap">Heyzap</string>
-    <string name="offer_revmob">Revmob</string>
-    <string name="offer_unity">Unity Video Offer</string>
+    <string name="offer_adxmi">ADXMI Rewards</string>
+    <string name="offer_super_rewards">SuperRewards Rewards</string>
+    <string name="offer_super_sonic">SuperSonic Rewards</string>
+    <string name="offer_ascend_media">AdscendMedia Rewards</string>
+    <string name="offer_tapjoy">TapJoy Rewards</string>
+    <string name="offer_nativex">NativeX Rewards</string>
+    <string name="offer_adgate_rewards">AdGateMedia Rewards</string>
+    <string name="offer_trialpay">TrialPay Rewards</string>
+    <string name="offer_persona">Personaly Rewards</string>
+    <string name="offer_cpalead">CPALead Rewards</string>
+    <string name="offer_vungle">Vungle Rewards</string>
+    <string name="offer_chartboost">Chartboost Rewards</string>
+    <string name="offer_applovin">AppLovin Rewards</string>
+    <string name="offer_heyzap">Heyzap Rewards</string>
+    <string name="offer_revmob">Revmob Rewards</string>
+    <string name="offer_unity">Unity Video Rewards</string>
 
 
     <!-- String settings for error messages -->
@@ -126,7 +128,7 @@
     <!-- Advanced settings (Not recommended to change) -->
     <string name="time_format" formatted="false">%sH:%sM:%sS</string>
     <string name="credits_bar_credits_label">Total Credits:</string>
-    <string name="offer_adcolony">AdColony</string>
+    <string name="offer_adcolony">AdColony Rewards</string>
     <string name="please_login_in">Please Login or Signup using a confirmed Facebook or Google account to start earning Paypal cash and gift cards!</string>
     <string name="welcome_disclaimer_title">Welcome to CashMobi!</string>
     <string name="welcome_disclaimer_message">Disclaimer: After you Earn 400 Credits, You can Enter Your Friend\'s Invite ID to Earn an additional 200 Credits! Share Your Invite ID to Earn More!</string>

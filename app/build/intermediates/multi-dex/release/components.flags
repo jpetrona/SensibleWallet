@@ -1,16 +1,16 @@
--injars 'F:\Sharjeel'sWork\Workspace\SensibleWallet\app\build\intermediates\transforms\jarMerging\release\jars\1\1f\combined.jar'
--outjars 'F:\Sharjeel'sWork\Workspace\SensibleWallet\app\build\intermediates\multi-dex\release\componentClasses.jar'
+-injars 'F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\transforms\jarMerging\release\jars\1\1f\combined.jar'
+-outjars 'F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\multi-dex\release\componentClasses.jar'
 
--libraryjars 'C:\Users\Ali\AppData\Local\Android\sdk\build-tools\23.0.1\lib\shrinkedAndroid.jar'
+-libraryjars 'J:\Android\SDK\build-tools\23.0.1\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
 -dontobfuscate
 -dontusemixedcaseclassnames
 -dontpreverify
--dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontnote **
 -dontwarn **
--printconfiguration 'F:\Sharjeel'sWork\Workspace\SensibleWallet\app\build\intermediates\multi-dex\release\components.flags'
+-printconfiguration 'F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\multi-dex\release\components.flags'
 
 
 -keep class com.cashmobi.MyApplication {
@@ -142,6 +142,14 @@
     <init>();
 }
 
+-keep class com.vungle.publisher.VideoFullScreenAdActivity {
+    <init>();
+}
+
+-keep class com.vungle.publisher.MraidFullScreenAdActivity {
+    <init>();
+}
+
 -keep class net.adxmi.android.AdBrowser {
     <init>();
 }
@@ -186,8 +194,21 @@
     <init>();
 }
 
+-keep class com.facebook.CustomTabMainActivity {
+    <init>();
+}
+
 -keep class com.unity3d.ads.android.view.UnityAdsFullscreenActivity {
     <init>();
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
 }
 
 -keep public class * extends android.app.backup.BackupAgent {

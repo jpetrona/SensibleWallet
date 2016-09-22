@@ -40,7 +40,7 @@ public class RedeemRewardFragment extends Fragment implements WebServiceListener
 	public static final String TAG_DATA		= "Data";
 	public static final String TAG_term_content	= "term_content";
 	
-	private TextView txtInvite,txtInvitationCodeText;
+	private TextView txtInvite,txtInvitationCodeText, text_Gold;
 	private Button btnEnter;
 	private GlobalData gd;
 	ImageView logoImageView;
@@ -70,6 +70,7 @@ public class RedeemRewardFragment extends Fragment implements WebServiceListener
 
 			txtInvite				= (TextView)aiView.findViewById(R.id.text_invitetext);
 			txtInvitationCodeText	= (TextView)aiView.findViewById(R.id.txt_invitationbelowcode);
+			text_Gold	= (TextView)aiView.findViewById(R.id.text_Gold);
 			logoImageView			= (ImageView)aiView.findViewById(R.id.imageView1);
 			btnEnter				= (Button)aiView.findViewById(R.id.bt_enter);
 			
@@ -110,9 +111,17 @@ public class RedeemRewardFragment extends Fragment implements WebServiceListener
 				txtInvitationCodeText.setText(getString(R.string.disclaimer_paypal_redeem));
 				email_editText.setText(PreferenceConnector.readString(aiContext, PreferenceConnector.PAYPAL_EMAIL, ""));
 			}
-			else{
-				txtInvite.setText(Html.fromHtml("It will cost <font color='#f7835c'>" + points + "</font> Credits to redeem this gift card.<br> This gift card is valid only on <font color='#f7835c'>" + PreferenceConnector.readString(aiContext, PreferenceConnector.COUNTRYSELECTED, "US") + "</font> store."));
+			else if(headerName.toLowerCase().contains("bitcoin")){
+				txtInvite.setText(Html.fromHtml("It will cost <font color='#f7835c'>" + points + "</font> Credits to redeem this reward."));
+//				txtInvite.setText(Html.fromHtml("It will cost <font color='#f7835c'>" + points + "</font> Credits to redeem this gift card.<br> This gift card is valid only on <font color='#f7835c'>" + PreferenceConnector.readString(aiContext, PreferenceConnector.COUNTRYSELECTED, "US") + "</font> store."));
 				txtInvitationCodeText.setText(getString(R.string.disclaimer_redeem));
+				text_Gold.setText(getString(R.string.disclaimer_bitcoin_redeem));
+				email_editText.setText(PreferenceConnector.readString(aiContext, PreferenceConnector.USERNAME, ""));
+			}else {
+				txtInvite.setText(Html.fromHtml("It will cost <font color='#f7835c'>" + points + "</font> Credits to redeem this gift card."));
+//				txtInvite.setText(Html.fromHtml("It will cost <font color='#f7835c'>" + points + "</font> Credits to redeem this gift card.<br> This gift card is valid only on <font color='#f7835c'>" + PreferenceConnector.readString(aiContext, PreferenceConnector.COUNTRYSELECTED, "US") + "</font> store."));
+				txtInvitationCodeText.setText(getString(R.string.disclaimer_redeem));
+				text_Gold.setText(getString(R.string.disclaimer_play_redeem));
 				email_editText.setText(PreferenceConnector.readString(aiContext, PreferenceConnector.USERNAME, ""));
 			}
 			System.out.println(points);

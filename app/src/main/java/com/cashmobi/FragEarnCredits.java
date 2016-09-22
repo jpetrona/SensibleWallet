@@ -25,10 +25,12 @@ import android.widget.Toast;
 
 import com.adapter.AdapterEarnCredits;
 import com.adscendmedia.sdk.ui.OffersActivity;
+import com.applovin.adview.AppLovinIncentivizedInterstitial;
 import com.applovin.adview.AppLovinInterstitialAd;
 import com.applovin.adview.AppLovinInterstitialAdDialog;
 import com.applovin.sdk.AppLovinAd;
 import com.applovin.sdk.AppLovinAdDisplayListener;
+import com.applovin.sdk.AppLovinAdLoadListener;
 import com.applovin.sdk.AppLovinSdk;
 import com.archiveinfotech.crashreport.Utils;
 import com.chartboost.sdk.CBLocation;
@@ -142,7 +144,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 
 	private String[] strCreditOfferDetail = {
 			"Input Your Friend’s Invite ID to Earn Credits.\nYou Can Only Do This Once.",
-			"Invite an Unlimited Number of Friends to\nSensible Wallet to Earn Credits",
+			"Invite an Unlimited Number of Friends to\nCashMobi to Earn Credits",
             "Rate us Five Stars and Earn 50 credits!",
 			"Get Your Daily Login Bonus!\nCollect Credits Every Day\n",
 //            "Try Apps for at least 3 minutes",
@@ -154,11 +156,11 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 			"Try Apps for at Least 3 Minutes",
 			"Try Apps for at Least 3 Minutes",
 			"Try Apps for at Least 3 Minutes",
-            "Try Apps for at Least 3 Minutes ",
+//            "Try Apps for at Least 3 Minutes ",
 //            "Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
 //            "Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
 //            "Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
-            "Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
+//            "Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
             "Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
             //"Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits",
             //"Watch video To Get "+GlobalVariables.VIDEO_POINTS_NEW+" credits"
@@ -209,11 +211,11 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 	UnityAds.init(getActivity(),getString(R.string.unity_ads_id),this);
 	UnityAds.setDebugMode(Boolean.parseBoolean(getString(R.string.unity_ads_debug_mode)));
 	UnityAds.setTestMode(Boolean.parseBoolean(getString(R.string.unity_ads_test_mode)));
-		/*adDialog = AppLovinInterstitialAd.create(AppLovinSdk.getInstance(getActivity()), getActivity());
-		adDialog.setAdDisplayListener(this);*/
+		adDialog = AppLovinInterstitialAd.create(AppLovinSdk.getInstance(getActivity()), getActivity());
+		adDialog.setAdDisplayListener(this);
 
 
-		/*revmob = RevMob.startWithListener(getActivity(), new RevMobAdsListener(){
+		revmob = RevMob.startWithListener(getActivity(), new RevMobAdsListener(){
 			@Override
 			public void onRevMobSessionIsStarted() {
 				createVideo();
@@ -233,11 +235,11 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 			public void onRevMobAdNotReceived(String s) {
 				super.onRevMobAdNotReceived(s);
 			}
-		});*/
+		});
 
 
 		Utils.setFontAllView((ViewGroup) aiView);
-		/*VideoAd.setOnStatusListener(new HeyzapAds.OnStatusListener() {
+		VideoAd.setOnStatusListener(new HeyzapAds.OnStatusListener() {
 			@Override
 			public void onShow(String s) {
 				VideoAd.fetch();
@@ -279,14 +281,14 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 
 			}
 
-		});*/
+		});
 
 
 
 		return aiView;
 	}
 
-	/*private void createVideo() {
+	private void createVideo() {
 		video = revmob.createVideo(getActivity(), new RevMobAdsListener(){
 
 			@Override
@@ -312,7 +314,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 			}
 		});
 
-	}*/
+	}
 
 	@Override
 	public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
@@ -347,7 +349,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 					getResources().getString(R.string.offer_invite_friends)	,
                     getResources().getString(R.string.offer_rate_app)	,
 					getResources().getString(R.string.offer_daily_reward)	,
-//					getResources().getString(R.string.offer_persona)	,
+					getResources().getString(R.string.offer_persona)	,
 //					getResources().getString(R.string.offer_trialpay)	,
 					getResources().getString(R.string.offer_super_sonic)	,
                     getResources().getString(R.string.offer_adxmi)	,
@@ -355,15 +357,15 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
                     getResources().getString(R.string.offer_adgate_rewards)	,
 					getResources().getString(R.string.offer_nativex)	,
 					getResources().getString(R.string.offer_ascend_media)	,
-					getResources().getString(R.string.offer_cpalead)	,
-					getResources().getString(R.string.offer_super_rewards)	,
+//					getResources().getString(R.string.offer_cpalead)	,
+//					getResources().getString(R.string.offer_super_rewards)	,
 //					getResources().getString(R.string.offer_unity),
 //					getResources().getString(R.string.offer_chartboost),
 //					getResources().getString(R.string.offer_applovin),
 					getResources().getString(R.string.offer_adcolony),
 					//getResources().getString(R.string.offer_heyzap),
 					//getResources().getString(R.string.offer_revmob),
-					getResources().getString(R.string.offer_vungle)	,
+//					getResources().getString(R.string.offer_vungle)	,
 			};
 
 			for (int i = 0; i < strCreditOfferName.length; i++) {
@@ -388,11 +390,11 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 
             setupAXDMI();
 			loadListView();
-//			setUpPersonaSdk();
+			setUpPersonaSdk();
 //			trailPay();
 			setUpSuperSonic();
 //			connectToTapjoy();
-			setUpVungle();
+//			setUpVungle();
 //			setupSuperRewards();
 			setUpAdColony();
 
@@ -489,7 +491,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
             "InviteFriends",
             "RateFive",
             "DailyReward",
-//			"PS",
+			"PS",
 //            "TP",
 			"SS",
             "ADXMI",
@@ -497,15 +499,15 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
             "AR",
 			"NX",
             "AM",
-            "CL",
-			"SR",
+//            "CL",
+//			"SR",
 //            "UT",
 //            "CB",
 //            "AL",
             "AC",
             //"HZ",
             //"RM",
-			"VG",
+//			"VG",
 
     };
 

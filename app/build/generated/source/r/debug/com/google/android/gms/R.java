@@ -635,7 +635,7 @@ public final class R {
 		public static final int submit_area = 0x7f0b007e;
 		public static final int tabMode = 0x7f0b000c;
 		public static final int terrain = 0x7f0b0034;
-		public static final int text = 0x7f0b008e;
+		public static final int text = 0x7f0b008d;
 		public static final int text2 = 0x7f0b00ec;
 		public static final int textSpacerNoButtons = 0x7f0b0066;
 		public static final int time = 0x7f0b00ea;
@@ -744,10 +744,10 @@ public final class R {
 		public static final int create_calendar_message = 0x7f050058;
 		public static final int create_calendar_title = 0x7f050059;
 		public static final int decline = 0x7f05005b;
-		public static final int gcm_deleted = 0x7f050083;
+		public static final int gcm_deleted = 0x7f050085;
 		public static final int status_bar_notification_info_overflow = 0x7f05003f;
-		public static final int store_picture_message = 0x7f0500bf;
-		public static final int store_picture_title = 0x7f0500c0;
+		public static final int store_picture_message = 0x7f0500c1;
+		public static final int store_picture_title = 0x7f0500c2;
 		public static final int wallet_buy_button_place_holder = 0x7f050040;
 	}
 	public static final class style {

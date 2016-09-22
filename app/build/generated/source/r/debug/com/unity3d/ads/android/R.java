@@ -34,15 +34,15 @@ public final class R {
 		public static final int unityads_view_video_play = 0x7f03005c;
 	}
 	public static final class string {
-		public static final int unityads_buffering_text = 0x7f0500d1;
-		public static final int unityads_default_video_length_text = 0x7f0500d2;
-		public static final int unityads_lib_name = 0x7f0500d3;
-		public static final int unityads_mute_character = 0x7f0500d4;
-		public static final int unityads_skip_video_prefix = 0x7f0500d5;
-		public static final int unityads_skip_video_suffix = 0x7f0500d6;
-		public static final int unityads_skip_video_text = 0x7f0500d7;
-		public static final int unityads_tap_to_continue = 0x7f0500d8;
-		public static final int unityads_video_end_prefix = 0x7f0500d9;
-		public static final int unityads_video_end_suffix = 0x7f0500da;
+		public static final int unityads_buffering_text = 0x7f0500d3;
+		public static final int unityads_default_video_length_text = 0x7f0500d4;
+		public static final int unityads_lib_name = 0x7f0500d5;
+		public static final int unityads_mute_character = 0x7f0500d6;
+		public static final int unityads_skip_video_prefix = 0x7f0500d7;
+		public static final int unityads_skip_video_suffix = 0x7f0500d8;
+		public static final int unityads_skip_video_text = 0x7f0500d9;
+		public static final int unityads_tap_to_continue = 0x7f0500da;
+		public static final int unityads_video_end_prefix = 0x7f0500db;
+		public static final int unityads_video_end_suffix = 0x7f0500dc;
 	}
 }

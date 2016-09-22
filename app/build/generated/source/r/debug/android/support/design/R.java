@@ -635,8 +635,8 @@ public final class R {
 		public static final int showCustom = 0x7f0b0010;
 		public static final int showHome = 0x7f0b0011;
 		public static final int showTitle = 0x7f0b0012;
-		public static final int snackbar_action = 0x7f0b0093;
-		public static final int snackbar_text = 0x7f0b0092;
+		public static final int snackbar_action = 0x7f0b0092;
+		public static final int snackbar_text = 0x7f0b0091;
 		public static final int split_action_bar = 0x7f0b0007;
 		public static final int src_atop = 0x7f0b0028;
 		public static final int src_in = 0x7f0b0029;
@@ -645,7 +645,7 @@ public final class R {
 		public static final int status_bar_latest_event_content = 0x7f0b00e6;
 		public static final int submit_area = 0x7f0b007e;
 		public static final int tabMode = 0x7f0b000c;
-		public static final int text = 0x7f0b008e;
+		public static final int text = 0x7f0b008d;
 		public static final int text2 = 0x7f0b00ec;
 		public static final int textSpacerNoButtons = 0x7f0b0066;
 		public static final int time = 0x7f0b00ea;

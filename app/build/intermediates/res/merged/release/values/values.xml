@@ -221,6 +221,10 @@
     <color name="fontcolorepaymentlistitem">#000000</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <color name="golden">#FFC700</color>
+    <color name="golden_accent">#FFC53A</color>
+    <color name="golden_dark">#FFC700</color>
+    <color name="golden_highlight">#FFE548</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
@@ -228,10 +232,10 @@
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
-    <color name="material_color_accent">#f44336</color>
-    <color name="material_color_control_highlight">@color/md_red_600</color>
-    <color name="material_color_primary">@color/md_red_800</color>
-    <color name="material_color_primary_dark">@color/md_red_900</color>
+    <color name="material_color_accent">@color/golden_accent</color>
+    <color name="material_color_control_highlight">@color/golden_highlight</color>
+    <color name="material_color_primary">@color/golden</color>
+    <color name="material_color_primary_dark">@color/golden_dark</color>
     <color name="material_color_text_primary">@color/md_white_1000</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
@@ -553,7 +557,13 @@
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
-    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType">
+      <enum name="none" value="0"/>
+      <enum name="normal" value="1"/>
+      <enum name="satellite" value="2"/>
+      <enum name="terrain" value="3"/>
+      <enum name="hybrid" value="4"/>
+    </attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction"><flag name="never" value="0"/><flag name="ifRoom" value="1"/><flag name="always" value="2"/><flag name="withText" value="4"/><flag name="collapseActionView" value="8"/></attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
@@ -574,8 +584,35 @@
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/></declare-styleable>
     <declare-styleable name="ViewBackgroundHelper"><attr name="android:background"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="appTheme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
-    <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
+    <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="appTheme">
+            <enum name="holo_dark" value="0"/>
+            <enum name="holo_light" value="1"/>
+        </attr><attr format="enum" name="environment">
+            <enum name="production" value="1"/>
+            <enum name="sandbox" value="0"/>
+            <enum name="strict_sandbox" value="2"/>
+        </attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode">
+            <enum name="buyButton" value="1"/>
+            <enum name="selectionDetails" value="2"/>
+        </attr></declare-styleable>
+    <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight">
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr><attr format="dimension" name="buyButtonWidth">
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr><attr format="enum" name="buyButtonText">
+            <enum name="buy_with_google" value="1"/>
+            <enum name="buy_now" value="2"/>
+            <enum name="book_now" value="3"/>
+        </attr><attr format="enum" name="buyButtonAppearance">
+            <enum name="classic" value="1"/>
+            <enum name="grayscale" value="2"/>
+            <enum name="monochrome" value="3"/>
+        </attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType">
+            <enum name="classic" value="1"/>
+            <enum name="monochrome" value="2"/>
+        </attr></declare-styleable>
     <declare-styleable name="com_facebook_like_view"><attr format="color" name="com_facebook_foreground_color"/><attr format="string" name="com_facebook_object_id"/><attr name="com_facebook_object_type"><enum name="unknown" value="0"/><enum name="open_graph" value="1"/><enum name="page" value="2"/></attr><attr name="com_facebook_style"><enum name="standard" value="0"/><enum name="button" value="1"/><enum name="box_count" value="2"/></attr><attr name="com_facebook_auxiliary_view_position"><enum name="bottom" value="0"/><enum name="inline" value="1"/><enum name="top" value="2"/></attr><attr name="com_facebook_horizontal_alignment"><enum name="center" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/></attr></declare-styleable>
     <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="com_facebook_confirm_logout"/><attr format="string" name="com_facebook_login_text"/><attr format="string" name="com_facebook_logout_text"/><attr name="com_facebook_tooltip_mode"><enum name="automatic" value="0"/><enum name="display_always" value="1"/><enum name="never_display" value="2"/></attr></declare-styleable>
     <declare-styleable name="com_facebook_profile_picture_view"><attr name="com_facebook_preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="com_facebook_is_cropped"/></declare-styleable>
@@ -803,28 +840,28 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="accept">Accept</string>
-    <string name="api_ad_colony_app_id">app0dac939ae37745d184</string>
-    <string name="api_ad_colony_zone_id">vz55e714be1074431c97</string>
-    <string name="api_adxmi_app_id">8378a09d9c035eaf</string>
-    <string name="api_adxmi_app_secret">45d0fe31994dc9c0</string>
-    <string name="api_ascendmedia_adwall_id">1976</string>
-    <string name="api_ascendmedia_publisher_id">32350</string>
+    <string name="api_ad_colony_app_id">appaa82055de35f4afc90</string>
+    <string name="api_ad_colony_zone_id">vz5d7a10a7209e4784b0</string>
+    <string name="api_adxmi_app_id">381357e6b31f4407</string>
+    <string name="api_adxmi_app_secret">0086792d1d6dcd2b</string>
+    <string name="api_ascendmedia_adwall_id">6475</string>
+    <string name="api_ascendmedia_publisher_id">105633</string>
     <string name="api_chartboost_app_id">56d88be4a8b63c607ca56522</string>
     <string name="api_chartboost_app_signature">4137667b19d8d442a895ffbe33c90798033bed69</string>
-    <string name="api_cpalead_gateway_id">907289</string>
-    <string name="api_cpalead_publisher_id">372199</string>
-    <string name="api_nativex_app_id">30890</string>
-    <string name="api_persona_app_id">84bd29a809d93f7d2f4e0e1a01a6517b</string>
-    <string name="api_super_rewards_app_package_name">com.swallet</string>
-    <string name="api_super_rewards_hash">jprctxjiqmi.393019066550</string>
-    <string name="api_super_sonic_app_key">3d8d61e9</string>
-    <string name="api_tapjoy_sdk_key">FQDurAHySfGVNaSYYK9ISAECsJ0JzoMlWzJkPFcXTTPqCY5nrO6naPtJ3odC</string>
-    <string name="api_trialpay_app_key">e6c78043e93be11f553a076569b6a2ae</string>
-    <string name="api_vungle_app_id">Sensible</string>
+    <string name="api_cpalead_gateway_id">1084146</string>
+    <string name="api_cpalead_publisher_id">474955</string>
+    <string name="api_nativex_app_id">91043</string>
+    <string name="api_persona_app_id">0b5bba8fc9cbb47abb19883a8092c545</string>
+    <string name="api_super_rewards_app_package_name">com.cashmobi</string>
+    <string name="api_super_rewards_hash">pllqmxsqkfn.982657919947</string>
+    <string name="api_super_sonic_app_key">50e33475</string>
+    <string name="api_tapjoy_sdk_key">NBUqOb4HSZKxzaM4K_xplAECHXWrThrfSlase2mggj2IC_yiiApJvRlz8Pxc</string>
+    <string name="api_trialpay_app_key">d43e2b8deb3b00c577f1881a0ec583ab</string>
+    <string name="api_vungle_app_id">57b29a7a7db6810b2e000049</string>
     <string name="app_name">CashMobi</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="applovin_sdk_key">hO8UPJwRCpTBUooTCdnUTz4QeD8DsG3XeB12UxTgl0tEpen_HXUmVZA8nJLdZOACaBF37klslc5XGsXXO1IubS</string>
-    <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b>&lt;br />on your smartphone or computer&lt;br />and enter this code</string>
+    <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> on your smartphone or computer and enter this code</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
     <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
@@ -869,11 +906,14 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="connect">Connect</string>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="credits_bar_credits_label">Total Credits:</string>
     <string name="decline">Decline</string>
+    <string name="disclaimer_bitcoin_redeem">Please make sure the Bitcoin email address is correct.\nYour Bitcoin cash should be received within 48 hours</string>
     <string name="disclaimer_paypal_redeem">Please make sure the PayPal account you input above is correct and valid.\nWe\'ll be transferring your redeemed rewards to your account within 48 hours, please be sure to check.\nPayPal might charge additional transaction fees.</string>
+    <string name="disclaimer_play_redeem">Please make sure the Google email address is correct.\nYour Google play gift card should be received within 48 hours</string>
     <string name="disclaimer_redeem">Please make sure the email you input above is correct and valid.\nWe\'ll be sending you an email with the gift card code within 48 hours, please be sure to check.</string>
     <string name="drawer_assistance">Assistance</string>
     <string name="drawer_check_updates">Check for Updates</string>
@@ -890,6 +930,7 @@
     <string name="drawer_rate">Rate us on Google Play</string>
     <string name="drawer_reward_history">Reward History</string>
     <string name="drawer_terms">Terms of Service</string>
+    <string name="earn_cred">Tasks</string>
     <string name="enable_email">false</string>
     <string name="error_data_from_server">Error in getting data from server</string>
     <string name="error_facebook_email_unverified">Oops! Your E-mail address is not verified with Facebook</string>
@@ -914,43 +955,45 @@
     <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
     <string name="google_analytics_id">UA-74706740-1</string>
     <string name="heyzap_app_id">d3f795a66009bd68262f51ecc847879f</string>
+    <string name="invite">Invite</string>
     <string name="message_invite_id_copied">Invitation ID Copied</string>
     <string name="message_login_success">Login Successful</string>
     <string name="message_redeem_success">Success, Your Reward is Currently Processing!</string>
     <string name="message_updated_version">You\'re using the latest version!</string>
     <string name="messenger_send_button_text">Send</string>
-    <string name="offer_adcolony">Credit Offers AdColony</string>
-    <string name="offer_adgate_rewards">AdGate Media Rewards</string>
+    <string name="offer_adcolony">AdColony Rewards</string>
+    <string name="offer_adgate_rewards">AdGateMedia Rewards</string>
     <string name="offer_adxmi">ADXMI Rewards</string>
     <string name="offer_applovin">AppLovin Rewards</string>
     <string name="offer_ascend_media">AdscendMedia Rewards</string>
     <string name="offer_chartboost">Chartboost Rewards</string>
-    <string name="offer_cpalead">CPAlead Rewards</string>
+    <string name="offer_cpalead">CPALead Rewards</string>
     <string name="offer_daily_reward">Daily Credit Reward</string>
-    <string name="offer_heyzap">HeyZap Rewards</string>
+    <string name="offer_heyzap">Heyzap Rewards</string>
     <string name="offer_input_invitation_code">Input Invitation Code</string>
     <string name="offer_invite_friends">Invite Friends</string>
     <string name="offer_nativex">NativeX Rewards</string>
     <string name="offer_persona">Personaly Rewards</string>
     <string name="offer_rate_app">Rate us on Google Play!</string>
     <string name="offer_revmob">Revmob Rewards</string>
-    <string name="offer_super_rewards">SuperRewards</string>
+    <string name="offer_super_rewards">SuperRewards Rewards</string>
     <string name="offer_super_sonic">SuperSonic Rewards</string>
     <string name="offer_tapjoy">TapJoy Rewards</string>
     <string name="offer_trialpay">TrialPay Rewards</string>
-    <string name="offer_unity">Unity Rewards</string>
+    <string name="offer_unity">Unity Video Rewards</string>
     <string name="offer_vungle">Vungle Rewards</string>
     <string name="please_login_in">Please Login or Signup using a confirmed Facebook or Google account to start earning Paypal cash and gift cards!</string>
     <string name="prefs_rewarded_key">prefs_rewarded</string>
     <string name="prompt_choose_login_account">Choose an Account to Start Earning!</string>
     <string name="prompt_forgot_password">Please enter your email to reset password</string>
     <string name="revmob_media_id">56d89bd7d05d07ce76961927</string>
+    <string name="rewards">Rewards</string>
     <string name="screen_earn_credits_offer_prompt">Earn Credits</string>
     <string name="screen_input_friend_id_hint_invitation_code">Friend\'s Invitation Code</string>
     <string name="screen_invite_friends_button_copy_id">Copy Invitation ID</string>
     <string name="screen_invite_friends_button_share">Share</string>
-    <string name="screen_invite_friends_instruction_1">Share your Sensible Wallet Id with Your Friends on Social Media and Earn Big!</string>
-    <string name="screen_invite_friends_instruction_2">Your Friend Installs Sensible Wallet and Enters Your Invitation ID after earning 400 Credits under Earn Credits!"</string>
+    <string name="screen_invite_friends_instruction_1">Share your CashMobi Id with Your Friends on Social Media and Earn Big!</string>
+    <string name="screen_invite_friends_instruction_2">Your Friend Installs CashMobi and Enters Your Invitation ID after earning 400 Credits under Earn Credits!"</string>
     <string name="screen_invite_friends_instruction_3">Your Friend Receives 200 Credits and \n You Receive 200 Credits For Every Friend You Invite!</string>
     <string name="screen_invite_friends_invitation_id_label">Invitation ID:</string>
     <string name="screen_login_button_facebook_login">Facebook Connect</string>
@@ -959,7 +1002,7 @@
     <string name="screen_login_button_login">Login</string>
     <string name="screen_login_button_sign_up">Sign-up</string>
     <string name="screen_login_or_label">Or</string>
-    <string name="screen_login_welcome_label">Welcome to Sensible Wallet!</string>
+    <string name="screen_login_welcome_label">Welcome to CashMobi!</string>
     <string name="screen_register_button_start">Start Earning</string>
     <string name="screen_register_hint_confirm_password">Confirm Password</string>
     <string name="screen_register_hint_email">Email Address</string>
@@ -1001,7 +1044,7 @@
     <string name="unityads_video_end_suffix">seconds</string>
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
     <string name="welcome_disclaimer_message">Disclaimer: After you Earn 400 Credits, You can Enter Your Friend\'s Invite ID to Earn an additional 200 Credits! Share Your Invite ID to Earn More!</string>
-    <string name="welcome_disclaimer_title">Welcome to Sensible Wallet!</string>
+    <string name="welcome_disclaimer_title">Welcome to CashMobi!</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

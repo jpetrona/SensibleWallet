@@ -63,6 +63,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="text"
                     android:singleLine="true"
+                    android:visibility="gone"
                     android:textSize="18sp"/>
 
             </android.support.design.widget.TextInputLayout>
@@ -84,6 +85,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="text"
                     android:singleLine="true"
+                    android:visibility="gone"
                     android:textSize="18sp"/>
 
             </android.support.design.widget.TextInputLayout>
@@ -120,6 +122,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/text_Gold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/disclaimer_paypal_redeem"
