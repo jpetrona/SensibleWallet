@@ -1,7 +1,7 @@
 -injars 'F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\transforms\jarMerging\release\jars\1\1f\combined.jar'
 -outjars 'F:\MyWork\Sensible Wallet_Package_3\SensibleWallet\app\build\intermediates\multi-dex\release\componentClasses.jar'
 
--libraryjars 'J:\Android\SDK\build-tools\23.0.1\lib\shrinkedAndroid.jar'
+-libraryjars 'J:\Android\SDK\build-tools\23.0.2\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
@@ -187,18 +187,6 @@
 }
 
 -keep class com.heyzap.sdk.ads.PackageAddedReceiver {
-    <init>();
-}
-
--keep class com.facebook.CustomTabActivity {
-    <init>();
-}
-
--keep class com.facebook.CustomTabMainActivity {
-    <init>();
-}
-
--keep class com.unity3d.ads.android.view.UnityAdsFullscreenActivity {
     <init>();
 }
 

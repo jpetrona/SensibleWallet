@@ -3,6 +3,12 @@
     <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
     <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
     <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="abc_dialog_fixed_width_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_width_minor" type="dimen">90%</item>
+    <item name="abc_dialog_min_width_major" type="dimen">55%</item>
+    <item name="abc_dialog_min_width_minor" type="dimen">80%</item>
     <dimen name="abc_search_view_text_min_width">192dip</dimen>
     <dimen name="actionbarheight">90dp</dimen>
     <dimen name="actmain_margintop">90dp</dimen>
@@ -11,10 +17,6 @@
     <dimen name="btninvitefriends_textsize">22sp</dimen>
     <dimen name="btnroundborder_width">6dp</dimen>
     <dimen name="dialog_btnheight">54dp</dimen>
-    <item name="dialog_fixed_height_major" type="dimen">60%</item>
-    <item name="dialog_fixed_height_minor" type="dimen">90%</item>
-    <item name="dialog_fixed_width_major" type="dimen">60%</item>
-    <item name="dialog_fixed_width_minor" type="dimen">90%</item>
     <dimen name="divider_height">1dp</dimen>
     <dimen name="divider_size">3dp</dimen>
     <dimen name="donthaveaccounttext">18sp</dimen>

@@ -217,14 +217,14 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 		mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.END);
 		mDrawerLay		= (NavigationView)findViewById(R.id.navigation_view);
         mDrawerLay.setNavigationItemSelectedListener(this);
-        TextView navigationTotalCreditTextView = (TextView)mDrawerLay.findViewById(R.id.nav_drawer_total_credits);
+        TextView navigationTotalCreditTextView = (TextView)mDrawerLay.getHeaderView(0).findViewById(R.id.nav_drawer_total_credits);
         navigationTotalCreditTextView.setText("Total Credits: " + PreferenceConnector.readInteger(aiContext,
                 PreferenceConnector.WALLETPOINTS, 0));
-        TextView navigationWalletIDText = (TextView)mDrawerLay.findViewById(R.id.nav_drawer_wallet_id);
-        navigationWalletIDText.setText("Wallet ID: " + PreferenceConnector.readString(aiContext,
+        TextView navigationWalletIDText = (TextView)mDrawerLay.getHeaderView(0).findViewById(R.id.nav_drawer_wallet_id);
+			navigationWalletIDText.setText("Wallet ID: " + PreferenceConnector.readString(aiContext,
                 PreferenceConnector.WALLETID, ""));
-        TextView navigationUsernameText = (TextView)mDrawerLay.findViewById(R.id.nav_drawer_username);
-        navigationUsernameText.setText(PreferenceConnector.readString(aiContext,
+        TextView navigationUsernameText = (TextView)mDrawerLay.getHeaderView(0).findViewById(R.id.nav_drawer_username);
+			navigationUsernameText.setText(PreferenceConnector.readString(aiContext,
                 PreferenceConnector.USERNAME, ""));
 //		MyUtils.setFontAllView((RelativeLayout)findViewById(R.id.laymenu));
 //		completedoffers			= (Button)mDrawerLay.findViewById(R.id.completedoffers);
@@ -257,7 +257,7 @@ public class ActivityMainWallet extends BaseActivity implements WebServiceListen
 //		MyUtils.lastName(appLastName);
 //		scrollView = (ScrollView)mDrawerLay.findViewById(R.id.scrollbar_invitepage);
 
-        drawerToolbar = (Toolbar)findViewById(R.id.drawer_toolbar);
+        drawerToolbar = (Toolbar)mDrawerLay.getHeaderView(0).findViewById(R.id.drawer_toolbar);
         drawerToolbar.setTitle(getString(R.string.app_name));
         drawerToolbar.setNavigationIcon(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
         drawerToolbar.setNavigationOnClickListener(new OnClickListener() {

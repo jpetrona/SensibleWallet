@@ -121,7 +121,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 	private Integer[] intCreditOfferImage = {
             R.drawable.ic_input_code,
             R.drawable.ic_invite_friends,
-            R.drawable.ic_rate_five,
+//            R.drawable.ic_rate_five,
             R.drawable.ic_daily_reward,
 			R.drawable.ic_offerwall_logo,
             R.drawable.ic_offerwall_logo,
@@ -145,7 +145,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 	private String[] strCreditOfferDetail = {
 			"Input Your Friend’s Invite ID to Earn Credits.\nYou Can Only Do This Once.",
 			"Invite an Unlimited Number of Friends to\nCashMobi to Earn Credits",
-            "Rate us Five Stars and Earn 50 credits!",
+//            "Rate us Five Stars and Earn 50 credits!",
 			"Get Your Daily Login Bonus!\nCollect Credits Every Day\n",
 //            "Try Apps for at least 3 minutes",
 //            "Try Apps for at least 3 minutes",
@@ -347,7 +347,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 			strCreditOfferName = new String[] {
 					getResources().getString(R.string.offer_input_invitation_code)	,
 					getResources().getString(R.string.offer_invite_friends)	,
-                    getResources().getString(R.string.offer_rate_app)	,
+//                    getResources().getString(R.string.offer_rate_app)	,
 					getResources().getString(R.string.offer_daily_reward)	,
 					getResources().getString(R.string.offer_persona)	,
 //					getResources().getString(R.string.offer_trialpay)	,
@@ -426,11 +426,11 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
                 if(PreferenceConnector.readBoolean(aiContext, PreferenceConnector.INPUT_INTIVTE_CODE_COMPLETED, false)) {
                     continue;
                 }
-            } else if(model.getImage() == R.drawable.ic_rate_five) {
+            } /*else if(model.getImage() == R.drawable.ic_rate_five) {
                 if(PreferenceConnector.readBoolean(aiContext, PreferenceConnector.RATE_APP_COMPLETED, false)) {
                     continue;
                 }
-            }
+            }*/
 
             listEarnCredits.add(model);
 		}
@@ -489,7 +489,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
     private String[] offerTags = {
             "InputCode",
             "InviteFriends",
-            "RateFive",
+//            "RateFive",
             "DailyReward",
 			"PS",
 //            "TP",

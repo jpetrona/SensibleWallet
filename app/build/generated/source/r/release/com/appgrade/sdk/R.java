@@ -8,9 +8,9 @@ package com.appgrade.sdk;
 
 public final class R {
 	public static final class attr {
-		public static final int assetType = 0x7f01002c;
-		public static final int debug = 0x7f01002b;
-		public static final int rewarded = 0x7f01005b;
+		public static final int assetType = 0x7f01009b;
+		public static final int debug = 0x7f01009a;
+		public static final int rewarded = 0x7f0100d2;
 	}
 	public static final class color {
 		public static final int AliceBlue = 0x7f0a0000;
@@ -159,27 +159,27 @@ public final class R {
 		public static final int YellowGreen = 0x7f0a008f;
 	}
 	public static final class drawable {
-		public static final int ic_action_av_replay = 0x7f02007c;
-		public static final int ic_action_device_screen_rotation = 0x7f02007d;
-		public static final int ic_action_navigation_menu = 0x7f02007e;
-		public static final int ic_button_close = 0x7f02007f;
+		public static final int ic_action_av_replay = 0x7f020089;
+		public static final int ic_action_device_screen_rotation = 0x7f02008a;
+		public static final int ic_action_navigation_menu = 0x7f02008b;
+		public static final int ic_button_close = 0x7f02008c;
 	}
 	public static final class id {
-		public static final int inline = 0x7f0b0018;
-		public static final int sticky = 0x7f0b0019;
+		public static final int inline = 0x7f0b001b;
+		public static final int sticky = 0x7f0b001c;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f050054;
-		public static final int prefs_rewarded_key = 0x7f0500a3;
+		public static final int app_name = 0x7f050056;
+		public static final int prefs_rewarded_key = 0x7f0500a7;
 	}
 	public static final class style {
-		public static final int InterstitialDialogTheme = 0x7f0700be;
+		public static final int InterstitialDialogTheme = 0x7f0800cb;
 	}
 	public static final class styleable {
-		public static final int[] BannerView = { 0x7f01002b, 0x7f01002c };
+		public static final int[] BannerView = { 0x7f01009a, 0x7f01009b };
 		public static final int BannerView_assetType = 1;
 		public static final int BannerView_debug = 0;
-		public static final int[] InterstitialView = { 0x7f01005b };
+		public static final int[] InterstitialView = { 0x7f0100d2 };
 		public static final int InterstitialView_rewarded = 0;
 	}
 }

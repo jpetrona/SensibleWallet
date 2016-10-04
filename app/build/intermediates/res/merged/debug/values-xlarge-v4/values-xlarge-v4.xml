@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="abc_action_bar_expanded_action_views_exclusive">false</bool>
+    <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="abc_dialog_fixed_width_major" type="dimen">50%</item>
+    <item name="abc_dialog_fixed_width_minor" type="dimen">70%</item>
+    <item name="abc_dialog_min_width_major" type="dimen">45%</item>
+    <item name="abc_dialog_min_width_minor" type="dimen">72%</item>
     <dimen name="abc_search_view_text_min_width">192dip</dimen>
     <dimen name="actmain_margintop">120dp</dimen>
     <dimen name="ationbar_header">44sp</dimen>
@@ -9,10 +15,6 @@
     <dimen name="btninvitefriends_textsize">30sp</dimen>
     <dimen name="btnroundborder_width">8dp</dimen>
     <dimen name="dialog_btnheight">70dp</dimen>
-    <item name="dialog_fixed_height_major" type="dimen">60%</item>
-    <item name="dialog_fixed_height_minor" type="dimen">90%</item>
-    <item name="dialog_fixed_width_major" type="dimen">50%</item>
-    <item name="dialog_fixed_width_minor" type="dimen">70%</item>
     <dimen name="divider_height">2dp</dimen>
     <dimen name="divider_size">4dp</dimen>
     <dimen name="donthaveaccounttext">22sp</dimen>

@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "23.0.2"
 
     dexOptions {
         javaMaxHeapSize "4g"
@@ -15,6 +15,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 23
         multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
     }
 
     signingConfigs {
@@ -66,7 +67,7 @@ dependencies {
 
     compile project(':googleplayserviceslib')
     compile 'com.android.support:multidex:1.0.1'
-    compile 'com.android.support:design:23.0.1'
+    compile 'com.android.support:design:23.4.0'
     compile files('libs/AdxmiCustomizedSdk_v1.2.0_2015-11-13.jar')
     compile files('libs/AdxmiSdk_v5.4.0_2015-11-12.jar')
     compile project(':unity-ads')
