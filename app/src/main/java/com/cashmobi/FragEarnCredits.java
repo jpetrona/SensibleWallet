@@ -119,10 +119,10 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 	private String[] strCreditOfferName;
 
 	private Integer[] intCreditOfferImage = {
-            R.drawable.ic_input_code,
-            R.drawable.ic_invite_friends,
+//            R.drawable.ic_input_code,
+//            R.drawable.ic_invite_friends,
 //            R.drawable.ic_rate_five,
-            R.drawable.ic_daily_reward,
+//            R.drawable.ic_daily_reward,
 			R.drawable.ic_offerwall_logo,
             R.drawable.ic_offerwall_logo,
             R.drawable.ic_offerwall_logo,
@@ -143,10 +143,10 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 	};
 
 	private String[] strCreditOfferDetail = {
-			"Input Your Friend’s Invite ID to Earn Credits.\nYou Can Only Do This Once.",
-			"Invite an Unlimited Number of Friends to\nCashMobi to Earn Credits",
+//			"Input Your Friend’s Invite ID to Earn Credits.\nYou Can Only Do This Once.",
+//			"Invite an Unlimited Number of Friends to\nCashMobi to Earn Credits",
 //            "Rate us Five Stars and Earn 50 credits!",
-			"Get Your Daily Login Bonus!\nCollect Credits Every Day\n",
+//			"Get Your Daily Login Bonus!\nCollect Credits Every Day\n",
 //            "Try Apps for at least 3 minutes",
 //            "Try Apps for at least 3 minutes",
 //			"Try Apps for at least 3 minutes",
@@ -345,10 +345,10 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
             mAdColonyZoneId = getResources().getString(R.string.api_ad_colony_zone_id);
 
 			strCreditOfferName = new String[] {
-					getResources().getString(R.string.offer_input_invitation_code)	,
-					getResources().getString(R.string.offer_invite_friends)	,
+//					getResources().getString(R.string.offer_input_invitation_code)	,
+//					getResources().getString(R.string.offer_invite_friends)	,
 //                    getResources().getString(R.string.offer_rate_app)	,
-					getResources().getString(R.string.offer_daily_reward)	,
+//					getResources().getString(R.string.offer_daily_reward)	,
 					getResources().getString(R.string.offer_persona)	,
 //					getResources().getString(R.string.offer_trialpay)	,
 					getResources().getString(R.string.offer_super_sonic)	,
@@ -369,11 +369,12 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 			};
 
 			for (int i = 0; i < strCreditOfferName.length; i++) {
-				if (i == 0) {
-					strCreditOfferCredits[i] = PreferenceConnector.readString(getActivity(), 
-							PreferenceConnector.INVITEFRIENDREWARD, "") + " Credits"; 
+				strCreditOfferCredits[i] = "";
+				/*if (i == 0) {
+					strCreditOfferCredits[i] = PreferenceConnector.readString(getActivity(),
+							PreferenceConnector.INVITEFRIENDREWARD, "") + " Credits";
 				}else if (i == 1) {
-					strCreditOfferCredits[i] = PreferenceConnector.readString(getActivity(), 
+					strCreditOfferCredits[i] = PreferenceConnector.readString(getActivity(),
 							PreferenceConnector.INVITEFRIENDREWARD, "") + " Credits";
 				}else if (i == 2) {
                     strCreditOfferCredits[i] = "50 Credits";
@@ -382,7 +383,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
                             PreferenceConnector.DAILYREWARDPOINTS, "") + " Credits";
 				}else {
 					strCreditOfferCredits[i] = "";
-				}
+				}*/
 			}
 
 			listEarnCredit		= (ListView)aiView.findViewById(R.id.listearncredit);
@@ -487,10 +488,10 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 	}
 
     private String[] offerTags = {
-            "InputCode",
-            "InviteFriends",
+//            "InputCode",
+//            "InviteFriends",
 //            "RateFive",
-            "DailyReward",
+//            "DailyReward",
 			"PS",
 //            "TP",
 			"SS",
