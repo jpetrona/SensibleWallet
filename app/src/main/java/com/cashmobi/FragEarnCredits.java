@@ -18,6 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -170,6 +171,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 
 	private List<EarnCreditModel> listEarnCredits = new ArrayList<>();
 	private ListView listEarnCredit;
+	private Button getCredits;
 	private static TextView creditWallet;
 
 	private Supersonic mMediationAgent;
@@ -387,6 +389,7 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 			}
 
 			listEarnCredit		= (ListView)aiView.findViewById(R.id.listearncredit);
+			getCredits		= (Button)aiView.findViewById(R.id.btnGetCredits);
 			creditWallet		= (TextView)aiView.findViewById(R.id.credit_wallet);
 
             setupAXDMI();
@@ -406,6 +409,12 @@ OnAdEventV2,SessionListener,RewardListener, PointsEarnNotify,AppLovinAdDisplayLi
 		if(aiContext!=null)
 			creditWallet.setText(PreferenceConnector.readInteger(aiContext, PreferenceConnector.WALLETPOINTS,0)+"");
 
+		getCredits.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				switchFragment(new InputInvitationCodeFragment(), FragmentTAG.FragInputInvitationCode);
+			}
+		});
 	}
 
 	@Override

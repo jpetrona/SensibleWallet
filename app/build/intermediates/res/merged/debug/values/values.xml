@@ -1019,6 +1019,7 @@
     <string name="screen_invite_friends_instruction_1">Share your CashMobi Id with Your Friends on Social Media and Earn Big!</string>
     <string name="screen_invite_friends_instruction_2">Your Friend Installs CashMobi and Enters Your Invitation ID after earning 400 Credits under Earn Credits!"</string>
     <string name="screen_invite_friends_instruction_3">Your Friend Receives 200 Credits and \n You Receive 200 Credits For Every Friend You Invite!</string>
+    <string name="screen_invite_friends_instruction_4">Each time your friend input your invitation code. you will earn 100</string>
     <string name="screen_invite_friends_invitation_id_label">Invitation ID:</string>
     <string name="screen_login_button_facebook_login">Facebook Connect</string>
     <string name="screen_login_button_google_login">SIGN IN</string>
